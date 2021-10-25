@@ -1,4 +1,4 @@
-function addNewCard(query, code) {
+function addNewCard(query, code, intent, entities) {
 
     const cards = document.querySelector(".cards");
     cards.style.visibility = "visible";
@@ -6,6 +6,10 @@ function addNewCard(query, code) {
         <div class="card">
             <div class="query-section">
                 <h5>${query}</h5>
+                <div class="info">
+                    <h5>Intent: <span>${intent}</span></h5>
+                    <h5>Entities: <span>${entities}</span></h5>
+                </div>
             </div>
             <div class="code-center">
                 <pre>
@@ -23,7 +27,10 @@ function addNewCard(query, code) {
 
 
 function getCode() {
-    addNewCard(codes[0]["query"], codes[0]["code"]);
+    addNewCard(
+        codes[0]["query"], codes[0]["code"],
+        codes[0]["intent"], codes[0]["entities"]
+    );
 }
 
 function randomNumber(min, max) {
@@ -34,6 +41,8 @@ codes = [
     {
         "id": 1,
         "query": "Demo code for flask routing with port set to 3000, from backend",
+        "intent": "null_imputation",
+        "entities": "mean",
         "code": `
                 from flask import Flask
                 app = Flask(__name__)

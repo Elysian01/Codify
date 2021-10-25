@@ -7,8 +7,8 @@
 }
 
 :root {
-  /* --primary-color: #007fff; */
   --primary-color: #fe4164;
+  --secondary-color: #007fff;
   --max-window-width: 70%;
 }
 
@@ -90,12 +90,37 @@ input[type="text"] {
   color: white;
   margin: 5px auto;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   width: var(--max-window-width);
 }
 
+.card .query-section .info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.card .query-section .info h5 {
+  display: inline;
+  flex-direction: column;
+  border-radius: 15px;
+  flex-basis: 100%;
+  flex: 1;
+  max-width: 40%;
+  font-weight: bold;
+  background-color: #fff;
+  color: #FF0833;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.card .query-section .info h5 span {
+  color: #000;
+}
 
 .code-center {
   display: block;
