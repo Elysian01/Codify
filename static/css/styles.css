@@ -12,6 +12,10 @@
   --max-window-width: 70%;
 }
 
+.primary-color {
+  color: var(--primary-color);
+}
+
 
 .logo {
   max-width: 80px;
@@ -32,6 +36,34 @@
 
 .header .tagline span {
   color: var(--primary-color);
+}
+
+.header .nav {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.header .nav h5 {
+  margin: 0 15px;
+  transition: all 0.5s;
+}
+
+.header .nav h5 a{
+  color: black;
+}
+
+.header .nav h5:hover {
+  transform: scale(1.2);
+}
+
+.header .nav .active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-color);
 }
 
 .btn-color {
@@ -144,10 +176,7 @@ body {
 *:focus {
   outline: none;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
+
 main {
   min-height: 100vh;
   display: flex;
