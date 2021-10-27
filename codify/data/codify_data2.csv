@@ -1,0 +1,367 @@
+text,intent
+Replace null values with mean values,null_imputation
+Code to replace all null values with their mean values,null_imputation
+Replace null values with median values,null_imputation
+Replace null values with mode values,null_imputation
+Convert null value with median of that column,null_imputation
+How to replace null values with mean,null_imputation
+Replace all value with ‘5’,null_imputation
+Remove null values and put mean values in its place,null_imputation
+Delete null values and insert mean values in its place,null_imputation
+Return median value instead of null values,null_imputation
+How to handle missing value in dataset,null_imputation
+I want to remove null values,null_imputation
+How to remove null values,null_imputation
+Insert median values replacing with the null values,null_imputation
+Add median values in place of null values,null_imputation
+Add mode values in place of null values,null_imputation
+Change null values with their mean values,null_imputation
+Swap null values with mode value,null_imputation
+I want to replace the null values with mean,null_imputation
+How can I replace median values on to null values,null_imputation
+Encode it with label encoding,encoding
+Perform label encoding,encoding
+One hot encoding,encoding
+Ordinal Encoding,encoding
+Code for label encoding,encoding
+Complete label encoding,encoding
+Do label encoding,encoding
+Finish label encoding now,encoding
+Get label encoding done,encoding
+End label encoding soon,encoding
+How to do label encoding,encoding
+How to one hot encode,encoding
+I want to perform one hot encoding,encoding
+Standard scaler,feature_scaling
+Minmax scaler,feature_scaling
+Max abs scaler,feature_scaling
+Normalization,feature_scaling
+Code for standard scaler,feature_scaling
+Feature scaling code,feature_scaling
+Do normalization,feature_scaling
+Complete data normalization,feature_scaling
+Show the minmax scaler,feature_scaling
+Finish normalization,feature_scaling
+Do normalization,feature_scaling
+Get the normalization done,feature_scaling
+Split dataset into training and test set,train_test_split
+Train and test set,train_test_split
+Code for splitting into train and test set,train_test_split
+How can I split data into test and train,train_test_split
+Train test split,train_test_split
+divide the data into two,train_test_split
+data into 2 parts,train_test_split
+code for dividing data into 2 parts,train_test_split
+Code to get training and test set,train_test_split
+Do training and testing of the dataset,train_test_split
+Split into training and testing set,train_test_split
+Drop column,drop_columns
+Drop particular column,drop_columns
+I want to drop few columns,drop_columns
+Whats the code to drop columns,drop_columns
+Remove column,drop_columns
+I want to delete a column,drop_columns
+How can I drop a column,drop_columns
+Can I delete a column,drop_columns
+Delete this column,drop_columns
+Terminate this column,drop_columns
+Remove column number ‘5’,drop_columns
+delete col,drop_columns
+Display first 5 rows,view_data
+Display head of dataframe,view_data
+Display last 2 rows,view_data
+Tail 5 rows,view_data
+First 5 rows of our data,view_data
+Last 5 rows,view_data
+First 10 rows,view_data
+Head,view_data
+Head of dataset,view_data
+Tail,view_data
+Tail of dataset,view_data
+Sample of dataset,view_data
+Sample,view_data
+Random rows from dataset,view_data
+Print random rows,view_data
+Print 5 random rows,view_data
+Display dataset,view_data
+Show dataset,view_data
+I want to see dataset,view_data
+Show rows and columns,view_data
+Show first 15 rows,view_data
+Convert my data from csv to pandas dataframe,csv_pandas
+Csv to Pandas,csv_pandas
+Read csv to pandas,csv_pandas
+read the dataset,csv_pandas
+Read csv,csv_pandas
+We are reading our data,csv_pandas
+How to convert csv file to pandas dataframe,csv_pandas
+I want to convert my dataset from csv to pandas,csv_pandas
+Make my dataset to pandas,csv_pandas
+Change dataset from csv to pandas,csv_pandas
+Transform data from csv to pandas,csv_pandas
+Check duplicates values in data,duplicate_values
+Are there any duplicate values in dataframe,duplicate_values
+Count the duplicate values,duplicate_values
+Count duplicate rows,duplicate_values
+Return sum of duplicate rows,duplicate_values
+How many duplicate rows exists in my data set,duplicate_values
+Find whether duplicate values are there or not If yes How many?,duplicate_values
+Does my dataset have duplicate values,duplicate_values
+Display repeated values,duplicate_values
+Show me values that are repeated in my dataset,duplicate_values
+Do duplication of these values,duplicate_values
+Complete the duplication,duplicate_values
+duplication in the dataset,duplicate_values
+Duplicate rows in this dataset,duplicate_values
+summarize the number of unique values in each column,unique_values
+Count unique values in all columns,unique_values
+How many unique values are there in all columns,unique_values
+What are the unique values present in the columns,unique_values
+unique values,unique_values
+total unique values,unique_values
+code for displaying all unique values,unique_values
+how many unique records are present,unique_values
+Different values in all columns,unique_values
+How many values are different than each other in each columns,unique_values
+Count all unique values,unique_values
+Mention all unique values,unique_values
+Tell me the percentage of data which is unique in each and every column,percentage_unique_values
+of unique data in all columns,percentage_unique_values
+Percentage of different data in each columns,percentage_unique_values
+percentage unique values,percentage_unique_values
+unique value percentage,percentage_unique_values
+display unique values in percentage,percentage_unique_values
+code for displaying unique values in percent,percentage_unique_values
+mention all unique values in percent,percentage_unique_values
+summarize all rows in percentage,percentage_unique_values
+how many unique values are present in percentage,percentage_unique_values
+total unique values in percent,percentage_unique_values
+summarize the percentage of unique values for each column using numpy,percentage_unique_values
+of null data in all columns,null_percent
+Percentage of null values,null_percent
+null values in percent,null_percent
+display null values in percent,null_percent
+code for empty rows in percent,null_percent
+demo code for showing null value in percent,null_percent
+"what are the null values in dataset, show in percent",null_percent
+Give me code to get null value percentage,null_percent
+Code for null value percentage,null_percent
+Calculate  of null data in here,null_percent
+Give me the  of null values,null_percent
+Show the  of null values,null_percent
+Null values in dataset,null_info
+Is there any null value in dataset,null_info
+display all null values ,null_info
+null info,null_info
+empty rows statistics,null_info
+display all the empty rows,null_info
+null rows statistics,null_info
+displaying all empty records,null_info
+code for displaying null values,null_info
+null statistics,null_info
+empty rows,null_info
+columns with missing values,null_info
+Print all null rows,null_info
+Total null rows,null_info
+Print total null rows in dataset column wise,null_info
+Show min values,describe_data
+Show max values,describe_data
+Descriptive Statistics,describe_data
+Descriptive stats,describe_data
+Show aggregate,describe_data
+Show count,describe_data
+Show average,describe_data
+Show mean,describe_data
+Show median,describe_data
+Show mode,describe_data
+Count null values,describe_data
+Describe data,describe_data
+Data description,describe_data
+Pandas describe data,describe_data
+statistical information about numerical columns in the dataset,describe_data
+Give statistical information,describe_data
+Count number of values,describe_data
+Bar plot,univariate_plot
+Histogram,univariate_plot
+Line plot,univariate_plot
+Plot a bar plot,univariate_plot
+Help me to plot a histogram,univariate_plot
+Get me the code to plot Line plot,univariate_plot
+Make histogram,univariate_plot
+Draw a line plot of the data,univariate_plot
+Whats the code for making a histogram,univariate_plot
+Code for Bar plot,univariate_plot
+Make a bar plot,univariate_plot
+Plot a histogram for me,univariate_plot
+Construct a bar plot,univariate_plot
+Change bar plot to line plot,univariate_plot
+Remake the histogram for new data,univariate_plot
+Complete the line plot,univariate_plot
+Design bar plot,univariate_plot
+Give me a line plot,univariate_plot
+Present a bar plot,univariate_plot
+Do bar plot,univariate_plot
+How to plot a line plot,univariate_plot
+Scatter plot,bivariate_plot
+Box plot,bivariate_plot
+Dist plot,bivariate_plot
+Pair plot,bivariate_plot
+Correlation,bivariate_plot
+Heat map,bivariate_plot
+Plot correlation matrix,bivariate_plot
+Value count plot,bivariate_plot
+Count plot,bivariate_plot
+Give me code for box plot,bivariate_plot
+Make a Pair plot for the data,bivariate_plot
+Create a beautiful Scatter plot,bivariate_plot
+Draw Dist plot,bivariate_plot
+Give me a box plot,bivariate_plot
+Make Pair plot for the data frame,bivariate_plot
+How to draw Box plot in python,bivariate_plot
+Explain code of Pair plot,bivariate_plot
+Let me know code for making Dist plot,bivariate_plot
+Construct a box plot,bivariate_plot
+Help me make a scatter plot,bivariate_plot
+Plot box plot for me,bivariate_plot
+Design box plot,bivariate_plot
+Give me a pair plot,bivariate_plot
+Present the pair plot,bivariate_plot
+Draw Pie plot,multi_variate_plot
+Desgin Pie plot,multi_variate_plot
+Pie plot,multi_variate_plot
+Violin plot,multi_variate_plot
+Word Count,multi_variate_plot
+Venn Diagram,multi_variate_plot
+Violin Plot,multi_variate_plot
+Count the word count for me,multi_variate_plot
+Complete the pie plot,multi_variate_plot
+Draw the violin plot for the given data,multi_variate_plot
+Design the venn diagram,multi_variate_plot
+Make a pie plot,multi_variate_plot
+What is the code for pie plot,multi_variate_plot
+How to make a pie plot,multi_variate_plot
+Give me a pie plot,multi_variate_plot
+Present the word count,multi_variate_plot
+Do word count,multi_variate_plot
+Do scatter plot,multi_variate_plot
+Simple Linear Regression,regression
+Linear Regression,regression
+Perform Linear Regression,regression
+Demonstrate Linear Regression,regression
+Execute Linear Regression,regression
+Perform Simple Linear Regression,regression
+Demonstrate Simple Linear Regression,regression
+Multiple Linear Regression,regression
+Design linear regression for the given dataset,regression
+Polynomial Linear Regression,regression
+Perform Polynomial Linear Regression,regression
+Demonstrate Polynomial Linear Regression,regression
+Decision Tree Regression,regression
+Random Forest Regression,regression
+Regression models,regression
+Lasso regression,regression
+Kernel Ridge Regression,regression
+Bayesian Ridge,regression
+Elastic Net Regression,regression
+Huber Regressor,regression
+All regression models,regression
+Code for all Regression models,regression
+Perform Random Forest Regression,regression
+Demonstrate Random Forest Regression,regression
+Execute Random Forest Regression,regression
+How to do linear regression,regression
+Do linear regression,regression
+Give linear regression,regression
+Complete linear regression,regression
+Code for random forest scikit learn,regression
+Logistic regression,classification
+Support vector Machine,classification
+K nearest Neighbour Algorithm,classification
+Perceptron,classification
+Naive bayes algorithm,classification
+Decision tree classification,classification
+Random forest classification,classification
+AdaBoost Classifier,classification
+Passive Aggressive Classifier,classification
+Bagging Classifier,classification
+Voting Classifier,classification
+Extra Trees Classifier,classification
+All classification models,classification
+Code for all classification models,classification
+Classification models,classification
+Extreme gradient boosting,boosting_algo
+Cat Boost,boosting_algo
+Gradient boosting algorithm,boosting_algo
+Light gradient boosting machine algorithm,boosting_algo
+Stochastic Gradient Descent,boosting_algo
+Code for extreme gradient boosting algo,boosting_algo
+Cat boost code,boosting_algo
+Give me code for cat boost algo,boosting_algo
+Demonstrating light gradient boosting machine algorithm,boosting_algo
+Performing extreme gradient boost algorithm,boosting_algo
+extreme gradient boost algorithm code,boosting_algo
+Classification Report,classify_eval
+Confusion Matrix,classify_eval
+Code for classification report,classify_eval
+F1 score,classify_eval
+Classification eval,classify_eval
+Class eval,classify_eval
+Sensitivity and specificity,classify_eval
+ROC curve,classify_eval
+AUC curve,classify_eval
+Accuracy,classify_eval
+Predicted Percentage,classify_eval
+Error Percentage,classify_eval
+True Positive,classify_eval
+True Negative,classify_eval
+False Positive,classify_eval
+False Negative,classify_eval
+Correct Prediction,classify_eval
+Incorrect Prediction,classify_eval
+Classified Percentage,classify_eval
+Misclassified Percentage,classify_eval
+Dropdown_class prediction,classify_eval
+Type-1 error,classify_eval
+Type-2 error,classify_eval
+Positive Prediction,classify_eval
+Negative prediction,classify_eval
+True positive rate,classify_eval
+code for Actual Value/Predicted Value,classify_eval
+receiver operating characteristics,classify_eval
+area under the curve,classify_eval
+Threshold value,classify_eval
+sciket learn code for K-fold cross-validation,classify_eval
+Classification Error,classify_eval
+Misclassification Rate,classify_eval
+sklearn code for Predict_proba,classify_eval
+Average classification accuracy,classify_eval
+Give the Classification Report,classify_eval
+Give the Positive Prediction,classify_eval
+Give the Negative prediction,classify_eval
+Give the True positive rate,classify_eval
+Show Code for classification report,classify_eval
+Show F1 score,classify_eval
+Show Classification eval,classify_eval
+Work out the Classification Report,classify_eval
+sciket -learn code for the Confusion Matrix,classify_eval
+provide Code for classification report,classify_eval
+Work out the F1 score,classify_eval
+demonstrate eval for classification,classify_eval
+code for AUC curve,classify_eval
+Work out the Accuracy,classify_eval
+code to Predicted Percentage,classify_eval
+code for area under the curve,classify_eval
+Work out the Threshold value,classify_eval
+give me code for K-fold cross-validation,classify_eval
+print Classification Report,classify_eval
+Displaying Confusion Matrix,classify_eval
+Write Code for classification report,classify_eval
+Display F1 score,classify_eval
+Display Classification eval,classify_eval
+Display Class eval,classify_eval
+Display Sensitivity and specificity,classify_eval
+Perform the Type-1 error,classify_eval
+skelarn code for accuracy,classify_eval
+classification report sklearn code,classify_eval
+regression eval code ,classify_eval
+regressor eval code output,classify_eval

@@ -1,0 +1,366 @@
+Replace null values with mean values
+Code to replace all null values with their mean values
+Replace null values with median values
+Replace null values with mode values
+Convert null value with median of that column
+How to replace null values with mean
+Replace all value with ‘5’
+Remove null values and put mean values in its place
+Delete null values and insert mean values in its place
+Return median value instead of null values
+How to handle missing value in dataset
+I want to remove null values
+How to remove null values
+Insert median values replacing with the null values
+Add median values in place of null values
+Add mode values in place of null values
+Change null values with their mean values
+Swap null values with mode value
+I want to replace the null values with mean
+How can I replace median values on to null values
+Encode it with label encoding
+Perform label encoding
+One hot encoding
+Ordinal Encoding
+Code for label encoding
+Complete label encoding
+Do label encoding
+Finish label encoding now
+Get label encoding done
+End label encoding soon
+How to do label encoding
+How to one hot encode
+I want to perform one hot encoding
+Standard scaler
+Minmax scaler
+Max abs scaler
+Normalization
+Code for standard scaler
+Feature scaling code
+Do normalization
+Complete data normalization
+Show the minmax scaler
+Finish normalization
+Do normalization
+Get the normalization done
+Split dataset into training and test set
+Train and test set
+Code for splitting into train and test set
+How can I split data into test and train
+Train test split
+divide the data into two
+data into 2 parts
+code for dividing data into 2 parts
+Code to get training and test set
+Do training and testing of the dataset
+Split into training and testing set
+Drop column
+Drop particular column
+I want to drop few columns
+Whats the code to drop columns
+Remove column
+I want to delete a column
+How can I drop a column
+Can I delete a column
+Delete this column
+Terminate this column
+Remove column number ‘5’
+delete col
+Display first 5 rows
+Display head of dataframe
+Display last 2 rows
+Tail 5 rows
+First 5 rows of our data
+Last 5 rows
+First 10 rows
+Head
+Head of dataset
+Tail
+Tail of dataset
+Sample of dataset
+Sample
+Random rows from dataset
+Print random rows
+Print 5 random rows
+Display dataset
+Show dataset
+I want to see dataset
+Show rows and columns
+Show first 15 rows
+Convert my data from csv to pandas dataframe
+Csv to Pandas
+Read csv to pandas
+read the dataset
+Read csv
+We are reading our data
+How to convert csv file to pandas dataframe
+I want to convert my dataset from csv to pandas
+Make my dataset to pandas
+Change dataset from csv to pandas
+Transform data from csv to pandas
+Check duplicates values in data
+Are there any duplicate values in dataframe
+Count the duplicate values
+Count duplicate rows
+Return sum of duplicate rows
+How many duplicate rows exists in my data set
+Find whether duplicate values are there or not If yes How many?
+Does my dataset have duplicate values
+Display repeated values
+Show me values that are repeated in my dataset
+Do duplication of these values
+Complete the duplication
+duplication in the dataset
+Duplicate rows in this dataset
+summarize the number of unique values in each column
+Count unique values in all columns
+How many unique values are there in all columns
+What are the unique values present in the columns
+unique values
+total unique values
+code for displaying all unique values
+how many unique records are present
+Different values in all columns
+How many values are different than each other in each columns
+Count all unique values
+Mention all unique values
+Tell me the percentage of data which is unique in each and every column
+of unique data in all columns
+Percentage of different data in each columns
+percentage unique values
+unique value percentage
+display unique values in percentage
+code for displaying unique values in percent
+mention all unique values in percent
+summarize all rows in percentage
+how many unique values are present in percentage
+total unique values in percent
+summarize the percentage of unique values for each column using numpy
+of null data in all columns
+Percentage of null values
+null values in percent
+display null values in percent
+code for empty rows in percent
+demo code for showing null value in percent
+what are the null values in dataset, show in percent
+Give me code to get null value percentage
+Code for null value percentage
+Calculate  of null data in here
+Give me the  of null values
+Show the  of null values
+Null values in dataset
+Is there any null value in dataset
+display all null values 
+null info
+empty rows statistics
+display all the empty rows
+null rows statistics
+displaying all empty records
+code for displaying null values
+null statistics
+empty rows
+columns with missing values
+Print all null rows
+Total null rows
+Print total null rows in dataset column wise
+Show min values
+Show max values
+Descriptive Statistics
+Descriptive stats
+Show aggregate
+Show count
+Show average
+Show mean
+Show median
+Show mode
+Count null values
+Describe data
+Data description
+Pandas describe data
+statistical information about numerical columns in the dataset
+Give statistical information
+Count number of values
+Bar plot
+Histogram
+Line plot
+Plot a bar plot
+Help me to plot a histogram
+Get me the code to plot Line plot
+Make histogram
+Draw a line plot of the data
+Whats the code for making a histogram
+Code for Bar plot
+Make a bar plot
+Plot a histogram for me
+Construct a bar plot
+Change bar plot to line plot
+Remake the histogram for new data
+Complete the line plot
+Design bar plot
+Give me a line plot
+Present a bar plot
+Do bar plot
+How to plot a line plot
+Scatter plot
+Box plot
+Dist plot
+Pair plot
+Correlation
+Heat map
+Plot correlation matrix
+Value count plot
+Count plot
+Give me code for box plot
+Make a Pair plot for the data
+Create a beautiful Scatter plot
+Draw Dist plot
+Give me a box plot
+Make Pair plot for the data frame
+How to draw Box plot in python
+Explain code of Pair plot
+Let me know code for making Dist plot
+Construct a box plot
+Help me make a scatter plot
+Plot box plot for me
+Design box plot
+Give me a pair plot
+Present the pair plot
+Draw Pie plot
+Desgin Pie plot
+Pie plot
+Violin plot
+Word Count
+Venn Diagram
+Violin Plot
+Count the word count for me
+Complete the pie plot
+Draw the violin plot for the given data
+Design the venn diagram
+Make a pie plot
+What is the code for pie plot
+How to make a pie plot
+Give me a pie plot
+Present the word count
+Do word count
+Do scatter plot
+Simple Linear Regression
+Linear Regression
+Perform Linear Regression
+Demonstrate Linear Regression
+Execute Linear Regression
+Perform Simple Linear Regression
+Demonstrate Simple Linear Regression
+Multiple Linear Regression
+Design linear regression for the given dataset
+Polynomial Linear Regression
+Perform Polynomial Linear Regression
+Demonstrate Polynomial Linear Regression
+Decision Tree Regression
+Random Forest Regression
+Regression models
+Lasso regression
+Kernel Ridge Regression
+Bayesian Ridge
+Elastic Net Regression
+Huber Regressor
+All regression models
+Code for all Regression models
+Perform Random Forest Regression
+Demonstrate Random Forest Regression
+Execute Random Forest Regression
+How to do linear regression
+Do linear regression
+Give linear regression
+Complete linear regression
+Code for random forest scikit learn
+Logistic regression
+Support vector Machine
+K nearest Neighbour Algorithm
+Perceptron
+Naive bayes algorithm
+Decision tree classification
+Random forest classification
+AdaBoost Classifier
+Passive Aggressive Classifier
+Bagging Classifier
+Voting Classifier
+Extra Trees Classifier
+All classification models
+Code for all classification models
+Classification models
+Extreme gradient boosting
+Cat Boost
+Gradient boosting algorithm
+Light gradient boosting machine algorithm
+Stochastic Gradient Descent
+Code for extreme gradient boosting algo
+Cat boost code
+Give me code for cat boost algo
+Demonstrating light gradient boosting machine algorithm
+Performing extreme gradient boost algorithm
+extreme gradient boost algorithm code
+Classification Report
+Confusion Matrix
+Code for classification report
+F1 score
+Classification eval
+Class eval
+Sensitivity and specificity
+ROC curve
+AUC curve
+Accuracy
+Predicted Percentage
+Error Percentage
+True Positive
+True Negative
+False Positive
+False Negative
+Correct Prediction
+Incorrect Prediction
+Classified Percentage
+Misclassified Percentage
+Dropdown_class prediction
+Type-1 error
+Type-2 error
+Positive Prediction
+Negative prediction
+True positive rate
+code for Actual Value/Predicted Value
+receiver operating characteristics
+area under the curve
+Threshold value
+sciket learn code for K-fold cross-validation
+Classification Error
+Misclassification Rate
+sklearn code for Predict_proba
+Average classification accuracy
+Give the Classification Report
+Give the Positive Prediction
+Give the Negative prediction
+Give the True positive rate
+Show Code for classification report
+Show F1 score
+Show Classification eval
+Work out the Classification Report
+sciket -learn code for the Confusion Matrix
+provide Code for classification report
+Work out the F1 score
+demonstrate eval for classification
+code for AUC curve
+Work out the Accuracy
+code to Predicted Percentage
+code for area under the curve
+Work out the Threshold value
+give me code for K-fold cross-validation
+print Classification Report
+Displaying Confusion Matrix
+Write Code for classification report
+Display F1 score
+Display Classification eval
+Display Class eval
+Display Sensitivity and specificity
+Perform the Type-1 error
+skelarn code for accuracy
+classification report sklearn code
+regression eval code 
+regressor eval code output
