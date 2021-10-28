@@ -36,7 +36,7 @@ class IntentClassfication:
                 f"Text: \t\t\t{text[0]}\nPredicted Intent: \t{self.labels[pred_index]}")
         response = {
             "text": text[0],
-            "predicted_intent": self.labels[pred_index]
+            "intent": self.labels[pred_index]
         }
         return response
 

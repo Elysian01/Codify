@@ -1,0 +1,3196 @@
+{
+    "annotations": [
+        [
+            "how many unique values are present in percentage",
+            {
+                "entities": [
+                    [
+                        38,
+                        48,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "summarize the percentage of unique values for each column using numpy",
+            {
+                "entities": [
+                    [
+                        14,
+                        24,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "of null data in all columns",
+            {
+                "entities": [
+                    [
+                        16,
+                        19,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "percentage of null values",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me code to get null value percentage",
+            {
+                "entities": [
+                    [
+                        31,
+                        41,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for null value percentage",
+            {
+                "entities": [
+                    [
+                        20,
+                        30,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "display all null values",
+            {
+                "entities": [
+                    [
+                        8,
+                        11,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "empty rows statistics",
+            {
+                "entities": [
+                    [
+                        11,
+                        21,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "display all the empty rows",
+            {
+                "entities": [
+                    [
+                        8,
+                        11,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "null rows statistics",
+            {
+                "entities": [
+                    [
+                        10,
+                        20,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "displaying all empty records",
+            {
+                "entities": [
+                    [
+                        11,
+                        14,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "null statistics",
+            {
+                "entities": [
+                    [
+                        5,
+                        15,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "print all null rows",
+            {
+                "entities": [
+                    [
+                        6,
+                        9,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show min values",
+            {
+                "entities": [
+                    [
+                        5,
+                        8,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show max values",
+            {
+                "entities": [
+                    [
+                        5,
+                        8,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "descriptive statistics",
+            {
+                "entities": [
+                    [
+                        0,
+                        22,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "descriptive stats",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show count",
+            {
+                "entities": [
+                    [
+                        5,
+                        10,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show average",
+            {
+                "entities": [
+                    [
+                        5,
+                        12,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show mean",
+            {
+                "entities": [
+                    [
+                        5,
+                        9,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show median",
+            {
+                "entities": [
+                    [
+                        5,
+                        11,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show mode",
+            {
+                "entities": [
+                    [
+                        5,
+                        9,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count null values",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "describe data",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "data description",
+            {
+                "entities": [
+                    [
+                        5,
+                        16,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "pandas describe data",
+            {
+                "entities": [
+                    [
+                        7,
+                        15,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "statistical information about numerical columns in the dataset",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give statistical information",
+            {
+                "entities": [
+                    [
+                        5,
+                        16,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count number of values",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "bar plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "histogram",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "line plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "plot a bar plot",
+            {
+                "entities": [
+                    [
+                        7,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "help me to plot a histogram",
+            {
+                "entities": [
+                    [
+                        18,
+                        27,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "get me the code to plot line plot",
+            {
+                "entities": [
+                    [
+                        24,
+                        28,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "make histogram",
+            {
+                "entities": [
+                    [
+                        5,
+                        14,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "draw a line plot of the data",
+            {
+                "entities": [
+                    [
+                        7,
+                        11,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "whats the code for making a histogram",
+            {
+                "entities": [
+                    [
+                        28,
+                        37,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for bar plot",
+            {
+                "entities": [
+                    [
+                        9,
+                        12,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "make a bar plot",
+            {
+                "entities": [
+                    [
+                        7,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "plot a histogram for me",
+            {
+                "entities": [
+                    [
+                        7,
+                        16,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "construct a bar plot",
+            {
+                "entities": [
+                    [
+                        12,
+                        15,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "change bar plot to line plot",
+            {
+                "entities": [
+                    [
+                        7,
+                        10,
+                        "VISUAL"
+                    ],
+                    [
+                        19,
+                        23,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "remake the histogram for new data",
+            {
+                "entities": [
+                    [
+                        11,
+                        20,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "complete the line plot",
+            {
+                "entities": [
+                    [
+                        13,
+                        17,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "design bar plot",
+            {
+                "entities": [
+                    [
+                        7,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me a line plot",
+            {
+                "entities": [
+                    [
+                        10,
+                        14,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "present a bar plot",
+            {
+                "entities": [
+                    [
+                        10,
+                        13,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "do bar plot",
+            {
+                "entities": [
+                    [
+                        3,
+                        6,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how to plot a line plot",
+            {
+                "entities": [
+                    [
+                        14,
+                        18,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "scatter plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "box plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "dist plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "pair plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "correlation",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "heat map",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "plot correlation matrix",
+            {
+                "entities": [
+                    [
+                        5,
+                        16,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "value count plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me code for box plot",
+            {
+                "entities": [
+                    [
+                        17,
+                        20,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "make a pair plot for the data",
+            {
+                "entities": [
+                    [
+                        7,
+                        11,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "create a beautiful scatter plot",
+            {
+                "entities": [
+                    [
+                        19,
+                        26,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "draw dist plot",
+            {
+                "entities": [
+                    [
+                        5,
+                        9,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me a box plot",
+            {
+                "entities": [
+                    [
+                        10,
+                        13,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "make pair plot for the data frame",
+            {
+                "entities": [
+                    [
+                        5,
+                        9,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how to draw box plot in python",
+            {
+                "entities": [
+                    [
+                        12,
+                        15,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "explain code of pair plot",
+            {
+                "entities": [
+                    [
+                        16,
+                        20,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "let me know code for making dist plot",
+            {
+                "entities": [
+                    [
+                        28,
+                        32,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "construct a box plot",
+            {
+                "entities": [
+                    [
+                        12,
+                        15,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "help me make a scatter plot",
+            {
+                "entities": [
+                    [
+                        15,
+                        22,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "plot box plot for me",
+            {
+                "entities": [
+                    [
+                        5,
+                        8,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "design box plot",
+            {
+                "entities": [
+                    [
+                        7,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me a pair plot",
+            {
+                "entities": [
+                    [
+                        10,
+                        14,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "present the pair plot",
+            {
+                "entities": [
+                    [
+                        12,
+                        16,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "draw pie plot",
+            {
+                "entities": [
+                    [
+                        5,
+                        8,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "desgin pie plot",
+            {
+                "entities": [
+                    [
+                        7,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "pie plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "violin plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "word count",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VISUAL"
+                    ],
+                    [
+                        5,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "violin plot",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count the word count for me",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "STATISTICS"
+                    ],
+                    [
+                        10,
+                        14,
+                        "VISUAL"
+                    ],
+                    [
+                        15,
+                        20,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "complete the pie plot",
+            {
+                "entities": [
+                    [
+                        13,
+                        16,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "draw the violin plot for the given data",
+            {
+                "entities": [
+                    [
+                        9,
+                        15,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "make a pie plot",
+            {
+                "entities": [
+                    [
+                        7,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "what is the code for pie plot",
+            {
+                "entities": [
+                    [
+                        21,
+                        24,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how to make a pie plot",
+            {
+                "entities": [
+                    [
+                        14,
+                        17,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me a pie plot",
+            {
+                "entities": [
+                    [
+                        10,
+                        13,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "present the word count",
+            {
+                "entities": [
+                    [
+                        12,
+                        16,
+                        "VISUAL"
+                    ],
+                    [
+                        17,
+                        22,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "do word count",
+            {
+                "entities": [
+                    [
+                        3,
+                        7,
+                        "VISUAL"
+                    ],
+                    [
+                        8,
+                        13,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "do scatter plot",
+            {
+                "entities": [
+                    [
+                        3,
+                        10,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "simple linear regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        24,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "linear regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        17,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "perform linear regression",
+            {
+                "entities": [
+                    [
+                        8,
+                        25,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "demonstrate linear regression",
+            {
+                "entities": [
+                    [
+                        12,
+                        29,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "execute linear regression",
+            {
+                "entities": [
+                    [
+                        8,
+                        25,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "perform simple linear regression",
+            {
+                "entities": [
+                    [
+                        8,
+                        32,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "demonstrate simple linear regression",
+            {
+                "entities": [
+                    [
+                        12,
+                        36,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "multiple linear regression",
+            {
+                "entities": [
+                    [
+                        9,
+                        26,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "design linear regression for the given dataset",
+            {
+                "entities": [
+                    [
+                        7,
+                        24,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "polynomial linear regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        28,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "perform polynomial linear regression",
+            {
+                "entities": [
+                    [
+                        8,
+                        36,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "demonstrate polynomial linear regression",
+            {
+                "entities": [
+                    [
+                        12,
+                        40,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "decision tree regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        24,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "random forest regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        24,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "regression models",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "lasso regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "kernel ridge regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        23,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "bayesian ridge",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "elastic net regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        22,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "huber regressor",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for all regression models",
+            {
+                "entities": [
+                    [
+                        9,
+                        12,
+                        "AMOUNT"
+                    ],
+                    [
+                        13,
+                        23,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "perform random forest regression",
+            {
+                "entities": [
+                    [
+                        8,
+                        32,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "demonstrate random forest regression",
+            {
+                "entities": [
+                    [
+                        12,
+                        36,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "execute random forest regression",
+            {
+                "entities": [
+                    [
+                        8,
+                        32,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how to do linear regression",
+            {
+                "entities": [
+                    [
+                        10,
+                        27,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "do linear regression",
+            {
+                "entities": [
+                    [
+                        3,
+                        20,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give linear regression",
+            {
+                "entities": [
+                    [
+                        5,
+                        22,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "complete linear regression",
+            {
+                "entities": [
+                    [
+                        9,
+                        26,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for random forest scikit learn",
+            {
+                "entities": [
+                    [
+                        9,
+                        22,
+                        "REGRESSION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "logistic regression",
+            {
+                "entities": [
+                    [
+                        0,
+                        19,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "support vector machine",
+            {
+                "entities": [
+                    [
+                        0,
+                        22,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "k nearest neighbour algorithm",
+            {
+                "entities": [
+                    [
+                        0,
+                        19,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "perceptron",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "naive bayes algorithm",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "decision tree classification",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "random forest classification",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "adaboost classifier",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "passive aggressive classifier",
+            {
+                "entities": [
+                    [
+                        0,
+                        18,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "bagging classifier",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "voting classifier",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "extra trees classifier",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "all classification models",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "AMOUNT"
+                    ],
+                    [
+                        4,
+                        18,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for all classification models",
+            {
+                "entities": [
+                    [
+                        9,
+                        12,
+                        "AMOUNT"
+                    ],
+                    [
+                        13,
+                        27,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "classification models",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "CLASSIFICATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "extreme gradient boosting",
+            {
+                "entities": [
+                    [
+                        0,
+                        25,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "cat boost",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "gradient boosting algorithm",
+            {
+                "entities": [
+                    [
+                        0,
+                        17,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "light gradient boosting machine algorithm",
+            {
+                "entities": [
+                    [
+                        0,
+                        23,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "stochastic gradient descent",
+            {
+                "entities": [
+                    [
+                        0,
+                        27,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for extreme gradient boosting algo",
+            {
+                "entities": [
+                    [
+                        9,
+                        34,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "cat boost code",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me code for cat boost algo",
+            {
+                "entities": [
+                    [
+                        17,
+                        26,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "demonstrating light gradient boosting machine algorithm",
+            {
+                "entities": [
+                    [
+                        14,
+                        37,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "performing extreme gradient boost algorithm",
+            {
+                "entities": [
+                    [
+                        11,
+                        33,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "extreme gradient boost algorithm code",
+            {
+                "entities": [
+                    [
+                        0,
+                        22,
+                        "BOOSTING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "classification report",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "confusion matrix",
+            {
+                "entities": [
+                    [
+                        0,
+                        16,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for classification report",
+            {
+                "entities": [
+                    [
+                        9,
+                        23,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "f1 score",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "classification eval",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "class eval",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "roc curve",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "auc curve",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "accuracy",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "true positive",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "true negative",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "false positive",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "false negative",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "type1 error",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "type2 error",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "positive prediction",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "negative prediction",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "true positive rate",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "sciket learn code for kfold crossvalidation",
+            {
+                "entities": [
+                    [
+                        22,
+                        43,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "classification error",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "average classification accuracy",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "STATISTICS"
+                    ],
+                    [
+                        8,
+                        31,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give the classification report",
+            {
+                "entities": [
+                    [
+                        9,
+                        23,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give the positive prediction",
+            {
+                "entities": [
+                    [
+                        9,
+                        17,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give the negative prediction",
+            {
+                "entities": [
+                    [
+                        9,
+                        17,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give the true positive rate",
+            {
+                "entities": [
+                    [
+                        9,
+                        22,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show code for classification report",
+            {
+                "entities": [
+                    [
+                        14,
+                        28,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show f1 score",
+            {
+                "entities": [
+                    [
+                        5,
+                        13,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show classification eval",
+            {
+                "entities": [
+                    [
+                        5,
+                        19,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "work out the classification report",
+            {
+                "entities": [
+                    [
+                        13,
+                        27,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "sciket learn code for the confusion matrix",
+            {
+                "entities": [
+                    [
+                        26,
+                        42,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "provide code for classification report",
+            {
+                "entities": [
+                    [
+                        17,
+                        31,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "work out the f1 score",
+            {
+                "entities": [
+                    [
+                        13,
+                        21,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "demonstrate eval for classification",
+            {
+                "entities": [
+                    [
+                        21,
+                        35,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for auc curve",
+            {
+                "entities": [
+                    [
+                        9,
+                        12,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "work out the accuracy",
+            {
+                "entities": [
+                    [
+                        13,
+                        21,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "give me code for kfold crossvalidation",
+            {
+                "entities": [
+                    [
+                        17,
+                        38,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "print classification report",
+            {
+                "entities": [
+                    [
+                        6,
+                        20,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "displaying confusion matrix",
+            {
+                "entities": [
+                    [
+                        11,
+                        27,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "write code for classification report",
+            {
+                "entities": [
+                    [
+                        15,
+                        29,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "display f1 score",
+            {
+                "entities": [
+                    [
+                        8,
+                        16,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "display classification eval",
+            {
+                "entities": [
+                    [
+                        8,
+                        22,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "display class eval",
+            {
+                "entities": [
+                    [
+                        8,
+                        13,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "perform the type1 error",
+            {
+                "entities": [
+                    [
+                        12,
+                        17,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "skelarn code for accuracy",
+            {
+                "entities": [
+                    [
+                        17,
+                        25,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "classification report sklearn code",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "regression eval code",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "regressor eval code output",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "EVALUATION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "replace null values with mean values",
+            {
+                "entities": [
+                    [
+                        25,
+                        29,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code to replace all null values with their mean values",
+            {
+                "entities": [
+                    [
+                        16,
+                        19,
+                        "AMOUNT"
+                    ],
+                    [
+                        43,
+                        47,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "replace null values with median values",
+            {
+                "entities": [
+                    [
+                        25,
+                        31,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "replace null values with mode values",
+            {
+                "entities": [
+                    [
+                        25,
+                        29,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "convert null value with median of that column",
+            {
+                "entities": [
+                    [
+                        24,
+                        30,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how to replace null values with mean",
+            {
+                "entities": [
+                    [
+                        32,
+                        36,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "replace all value with \ufffd5\ufffd",
+            {
+                "entities": [
+                    [
+                        8,
+                        11,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "remove null values and put mean values in its place",
+            {
+                "entities": [
+                    [
+                        27,
+                        31,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "delete null values and insert mean values in its place",
+            {
+                "entities": [
+                    [
+                        30,
+                        34,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "return median value instead of null values",
+            {
+                "entities": [
+                    [
+                        7,
+                        13,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "insert median values replacing with the null values",
+            {
+                "entities": [
+                    [
+                        7,
+                        13,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "add median values in place of null values",
+            {
+                "entities": [
+                    [
+                        4,
+                        10,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "add mode values in place of null values",
+            {
+                "entities": [
+                    [
+                        4,
+                        8,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "change null values with their mean values",
+            {
+                "entities": [
+                    [
+                        30,
+                        34,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "swap null values with mode value",
+            {
+                "entities": [
+                    [
+                        22,
+                        26,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to replace the null values with mean",
+            {
+                "entities": [
+                    [
+                        39,
+                        43,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how can i replace median values on to null values",
+            {
+                "entities": [
+                    [
+                        18,
+                        24,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "encode it with label encoding",
+            {
+                "entities": [
+                    [
+                        15,
+                        20,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "perform label encoding",
+            {
+                "entities": [
+                    [
+                        8,
+                        13,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "one hot encoding",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "ordinal encoding",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for label encoding",
+            {
+                "entities": [
+                    [
+                        9,
+                        14,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "complete label encoding",
+            {
+                "entities": [
+                    [
+                        9,
+                        14,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "do label encoding",
+            {
+                "entities": [
+                    [
+                        3,
+                        8,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "finish label encoding now",
+            {
+                "entities": [
+                    [
+                        7,
+                        12,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "get label encoding done",
+            {
+                "entities": [
+                    [
+                        4,
+                        9,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "end label encoding soon",
+            {
+                "entities": [
+                    [
+                        4,
+                        9,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how to do label encoding",
+            {
+                "entities": [
+                    [
+                        10,
+                        15,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how to one hot encode",
+            {
+                "entities": [
+                    [
+                        7,
+                        14,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to perform one hot encoding",
+            {
+                "entities": [
+                    [
+                        18,
+                        25,
+                        "ENCODING"
+                    ]
+                ]
+            }
+        ],
+        [
+            "standard scaler",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "minmax scaler",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "max abs scaler",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "normalization",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "code for standard scaler",
+            {
+                "entities": [
+                    [
+                        9,
+                        17,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "do normalization",
+            {
+                "entities": [
+                    [
+                        3,
+                        16,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "complete data normalization",
+            {
+                "entities": [
+                    [
+                        14,
+                        27,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "show the minmax scaler",
+            {
+                "entities": [
+                    [
+                        9,
+                        15,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "finish normalization",
+            {
+                "entities": [
+                    [
+                        7,
+                        20,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "do normalization",
+            {
+                "entities": [
+                    [
+                        3,
+                        16,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "get the normalization done",
+            {
+                "entities": [
+                    [
+                        8,
+                        21,
+                        "SCALAR"
+                    ]
+                ]
+            }
+        ],
+        [
+            "divide the data into two",
+            {
+                "entities": [
+                    [
+                        21,
+                        24,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "i want to drop few columns",
+            {
+                "entities": [
+                    [
+                        15,
+                        18,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "display head of dataframe",
+            {
+                "entities": [
+                    [
+                        8,
+                        12,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tail 5 rows",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "head",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "head of dataset",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tail",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tail of dataset",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "sample of dataset",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "sample",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "random rows from dataset",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "print random rows",
+            {
+                "entities": [
+                    [
+                        6,
+                        12,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "print 5 random rows",
+            {
+                "entities": [
+                    [
+                        8,
+                        14,
+                        "VIEW"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count the duplicate values",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count duplicate rows",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "VISUAL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count unique values in all columns",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "how many unique values are there in all columns",
+            {
+                "entities": [
+                    [
+                        36,
+                        39,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "different values in all columns",
+            {
+                "entities": [
+                    [
+                        20,
+                        23,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "count all unique values",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "STATISTICS"
+                    ],
+                    [
+                        6,
+                        9,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "mention all unique values",
+            {
+                "entities": [
+                    [
+                        8,
+                        11,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "tell me the percentage of data which is unique in each and every column",
+            {
+                "entities": [
+                    [
+                        12,
+                        22,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "of unique data in all columns",
+            {
+                "entities": [
+                    [
+                        18,
+                        21,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "percentage of different data in each columns",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "percentage unique values",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "unique value percentage",
+            {
+                "entities": [
+                    [
+                        13,
+                        23,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "display unique values in percentage",
+            {
+                "entities": [
+                    [
+                        25,
+                        35,
+                        "STATISTICS"
+                    ]
+                ]
+            }
+        ],
+        [
+            "summarize all rows in percentage",
+            {
+                "entities": [
+                    [
+                        10,
+                        13,
+                        "AMOUNT"
+                    ]
+                ]
+            }
+        ]
+    ],
+    "classes": [
+        "SCALAR",
+        "ENCODING",
+        "AMOUNT",
+        "EVALUATION",
+        "REGRESSION",
+        "CLASSIFICATION",
+        "STATISTICS",
+        "BOOSTING",
+        "VISUAL",
+        "VIEW"
+    ]
+}
