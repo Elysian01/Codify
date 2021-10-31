@@ -3,7 +3,7 @@
 
 ## [Intent Classification](https://github.com/Elysian01/Intent-Classification-Benchmark)
 
-### Comparison among Several Approach for Intent Classification.
+### Comparison among Several Approachs for Intent Classification.
 
 
 | Sr. No | Method                       | Accuracy | Paper                                                                       | Year     |
