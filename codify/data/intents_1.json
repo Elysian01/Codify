@@ -1,9 +1,0 @@
-[
-    "null_imputation","encoding","feature_scaling",
-    "train_test_split", "drop_columns", "view_data",
-    "csv_pandas", "duplicate_values", "unique_values",
-    "percentage_unique_values", "null_percent", "null_info",
-    "describe_data", "univariate_plot", "bivariate_plot",
-    "multi_variate_plot", "regression", "classification",
-    "boosting_algo"
-]
