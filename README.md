@@ -30,7 +30,7 @@ Custom Named Entity Recognition annotated using NER Annotated by tecoholic and S
 ## Get Started
 
 Download glove embeddings folder and place it inside "./codify/intent_word_emb" folder
-[link](https://drive.google.com/drive/folders/1-gWCai8P_kkcuBMKd4WyTVPI0drsV6rP?usp=sharing)
+<br>[Download link](https://drive.google.com/drive/folders/1-gWCai8P_kkcuBMKd4WyTVPI0drsV6rP?usp=sharing)
 
 ## Credits
 
