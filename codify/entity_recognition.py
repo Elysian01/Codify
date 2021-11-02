@@ -1,11 +1,15 @@
-import json
+import os
 import spacy
 
 
 class EntityRecognition:
     def __init__(self, model_path=None):
         if model_path is None:
-            self.model_path = "models/entity_recognition/"
+            self.model_path = os.path.join(
+                os.path.dirname(__file__),
+                "models",
+                "entity_recognition/"
+            )
         else:
             self.model_path = model_path
 

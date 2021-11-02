@@ -13,7 +13,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 class WordEmebdingClassifier:
     def __init__(self):
         self.model = KeyedVectors.load_word2vec_format(
-            os.path.join("embeddings", 'glove.6B.200d.w2vformat.txt'))
+            os.path.join(os.path.dirname(__file__),
+                         "embeddings",
+                         'glove.6B.200d.w2vformat.txt')
+        )
         # self.model = KeyedVectors.load_word2vec_format(
         #     os.path.join("embeddings_files/glove", 'glove.840B.300d.w2vformat.txt'))
 

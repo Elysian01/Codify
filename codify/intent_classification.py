@@ -1,16 +1,23 @@
+import os
 import pickle
-from intent_word_emb.word_embeding_classifier import WordEmebdingClassifier
+from .intent_word_emb.word_embeding_classifier import WordEmebdingClassifier
 
 
 class IntentClassfication:
     def __init__(self, model_path=None, label_path=None):
 
         if model_path is None:
-            self.model_path = "models/intent_classification_models/Codify_WordEmd_0.91acc.sav"
+            self.model_path = os.path.join(os.path.dirname(__file__),
+                                           "models",
+                                           "intent_classification_models",
+                                           "Codify_WordEmd_0.91acc.sav")
         else:
             self.model_path = model_path
         if label_path is None:
-            self.label_path = "models/intent_classification_models/Codify_WordEmd_0.91acc_labels.txt"
+            self.label_path = os.path.join(os.path.dirname(__file__),
+                                           "models",
+                                           "intent_classification_models",
+                                           "Codify_WordEmd_0.91acc_labels.txt")
         else:
             self.label_path = label_path
 

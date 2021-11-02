@@ -3,6 +3,8 @@ import spacy
 
 
 class EntityRecognitionTrainer:
+    """Trains Entity Model"""
+
     def __init__(self):
         pass
 

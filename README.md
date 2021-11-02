@@ -27,6 +27,11 @@
 ## [Custom-NER-using-Spacy](https://github.com/Elysian01/Custom-NER-using-Spacy)
 Custom Named Entity Recognition annotated using NER Annotated by tecoholic and Spacy for training the model
 
+## Get Started
+
+Download glove embeddings folder and place it inside "./codify/intent_word_emb" folder
+
+
 ## Credits
 
 * NER Annotator -  https://github.com/tecoholic/ner-annotator

@@ -1,32 +1,55 @@
 from flask import Flask
-from codify import *
-
+from flask import request
+from codify import Codify
 
 app = Flask(__name__)
 
-
-@app.route('/post/<string:i>', methods=['POST'])
-def post_str_req(i):
-    return {"Key": f"This is a post request with passed parameter {i}"}
-
-
-@app.route('/post/<int:i>', methods=['POST'])
-def post_req(i):
-    return {"Key": f"This is a post request with passed parameter {i}"}
-
-# just go in the postman type this url and click in send
+PORT = 9000
+codify = Codify()
+print("Intent Classification and Entity Recognition Model Successfully Loaded....")
 
 
-@app.route('/post', methods=['POST'])
-def simple_post_req():
-    return {"Key": "This is a post request with no passed parameter"}
+@app.route('/codify', methods=['POST'])
+def codify_request():
+    """Given text input, this functions identifies the intent and entities present in it and returns in json format
+
+    Example:
+        Accepts Request like:
+            {
+                "text": "insert median values replacing with the null values"
+            }
+
+        Returns:
+
+        {
+            "entities": [
+                [
+                    "median",
+                    "STATISTICS"
+                ]
+            ],
+            "intent": "null_imputation",
+            "text": "insert median values replacing with the null values"
+        }
+    """
+    data = request.get_json()
+    text = data.get('text')
+    response = codify.codify_engine(text)
+    return response
 
 
 @app.route('/', methods=['GET'])
 def home():
-    return "This is get request!"
+    return "Welcome to Codify Server!"
 
 
-# other request: put and delete
 if __name__ == '__main__':
-    app.run(debug=True)
+    examples = [
+        "insert median values replacing with the null values",
+        "Split dataset into training and test set",
+        "Duplicate rows in this dataset",
+        "Construct a bar plot",
+        "Perform Random Forest Regression",
+        "Code for all Regression models"
+    ]
+    app.run(host="127.0.0.1", port=PORT, debug=True)
