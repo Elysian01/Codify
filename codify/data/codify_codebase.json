@@ -1,0 +1,16 @@
+[
+     {
+          "id": 1,
+          "intent": "null_imputation",
+          "entity": "STATISTICS",
+          "code": [
+               "from sklearn.impute import SimpleImputer",
+               "# define the imputer",
+               "imputer = SimpleImputer(missing_values=nan, strategy='mean')",
+               "# transform the dataset",
+               "transformed_values = imputer.fit_transform(values)",
+               "# count the number of NaN values in each column",
+               "print('Missing: %d' % isnan(transformed_values).sum())"
+          ]
+     }
+]
