@@ -35,6 +35,7 @@ class WordEmebdingClassifier:
     def train(self, texts, labels):
         X = self.doc2vec(texts)
         tuned_parameters = {'kernel': ['linear'], 'C': [1, 10]}
+        # We will use grid GridSearchCV for hyper parameter tuning, we pass a list of hyper parameters and model will do all the PnC and give the best model as output
         self.clf = GridSearchCV(SVC(C=1, probability=True, class_weight="balanced"),
                                 param_grid=tuned_parameters,
                                 n_jobs=1,
