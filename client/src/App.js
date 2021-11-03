@@ -112,7 +112,7 @@ class App extends Component {
               Codify
           </h2>
           <h5 class="tagline">
-              <span>Instantly</span> Convert your <span>Thoughs</span> into <span>Code</span>
+              <span>Instantly</span> Convert your <span>Thoughts</span> into <span>Code</span>
           </h5>
         </div>
         <div className="playground">
@@ -138,13 +138,29 @@ class App extends Component {
         <section className="result">
           {this.state.output && <div><h4> Suggestions</h4></div>}
           <div className="output" >
-            {
-              this.state.output.map(op => (
+            { 
+              <div>
+              
                 <div className="code" >      
-                  {op}
+                  {/* {op} */}
+                  from sklearn.impute import SimpleImputer <br/>
+                  # define the imputer <br/>
+                  imputer = SimpleImputer(missing_values=nan, s trategy='mean') <br/>
+                  # transform the dataset <br/>
+                  transformed_values = imputer.fit_transform(values) <br/>
+                  # count the number of NaN values in each column <br/>
+                  print('Missing: %d' % isnan(transformed_values).sum()) <br/>
                   <button className="w3-button add-btn w3-purple" onClick={this.addCode} >Accept Code</button>
                 </div>
-              ))
+              
+
+                <div className="code" >      
+                  {/* {op} */}
+                  df.fillna(df.mean()) <br />
+                  print('Missing: %d' % isnan(df).sum()) <br/>
+                    <button className="w3-button add-btn w3-purple" onClick={this.addCode} >Accept Code</button>
+                </div>
+              </div>
             }
             
           </div>

@@ -33,15 +33,19 @@
   height: 450px;
   /* max-height: calc(100% - 30px); */
   overflow: auto;
+  font-size:22px;
+  color: white;
 } 
 
 .result {
   position: fixed;
-  top: 150px;
+  top: 100px;
   right: 30px;
   bottom: 0;
   left: 870px;
   overflow: hidden;
+  /* font-size: larger; */
+  font-size:22px;
 }
 
 .submit-div{
@@ -60,7 +64,7 @@
 }
 
 .output{
-  margin: 40px 10px 15px 25px;
+  margin: 20px 10px 15px 25px;
 }
 
 .code{
