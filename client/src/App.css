@@ -1,0 +1,118 @@
+.playground {
+  position: fixed;
+  /* top: 0;
+  bottom: 0;
+  left: 0; */
+  width: 800px;
+  height: 550px;
+  background-color: #1E1E2C;
+  margin: 20px 10px 0px 25px;
+}
+
+.code-editor {
+  height: 500px;
+  /* overflow: hidden; */
+  /* position: relative; */
+}
+
+.editor-header {
+  height: 30px;
+  content: attr(title);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+.CodeMirror{
+  height: 440px !important;
+}
+
+.react-codemirror2 {
+  height: 450px;
+  /* max-height: calc(100% - 30px); */
+  overflow: auto;
+} 
+
+.result {
+  position: fixed;
+  top: 150px;
+  right: 30px;
+  bottom: 0;
+  left: 870px;
+  overflow: hidden;
+}
+
+.submit-div{
+  float : right;
+  /* margin-top: 15px; */
+  margin-right: 25px;
+}
+
+.submit-btn{
+  border-radius: 5px;
+}
+
+.add-btn{
+  border-radius: 5px;
+  margin : 10px;
+}
+
+.output{
+  margin: 40px 10px 15px 25px;
+}
+
+.code{
+  margin : 12px 0px 12px 0px;
+}
+
+
+.logo {
+  max-width: 80px;
+}
+
+.header h2 {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header .tagline{
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.header .tagline span {
+  color: var(--primary-color);
+}
+
+.header .nav {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.header .nav h5 {
+  margin: 0 15px;
+  transition: all 0.5s;
+}
+
+.header .nav h5 a{
+  color: black;
+}
+
+.header .nav h5:hover {
+  transform: scale(1.2);
+}
+
+.header .nav .active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-color);
+}

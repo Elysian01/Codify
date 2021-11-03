@@ -1,5 +1,5 @@
 ## Directories
-embeddings/
+/codify/intent_word_emb/embeddings/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
