@@ -7,7 +7,7 @@
 
 | Parameter | Statistics |
 | -------- | ----------- | 
-| Total Number of Users Queries | 370 => 425 |
+| Total Number of Users Queries | 500 |
 | Total Number of Unique Intents | 20 |
 | Total Number of  Unique Entity | 10 |
 | Total Number of  Unique Python Code Snippets | 85 |
