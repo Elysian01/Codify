@@ -49,7 +49,7 @@
 
         <div class="card">
             <div class="query-section">
-                <h5>Demo code for flask routing with port set to 3000</h5>
+                <h5><b>Code For:</b> replace null value with their mean values</h5>
                 <div class="info">
                     <h5>Intent: <span>null_imputation</span></h5>
                     <h5>Entities: <span>mean</span></h5>
@@ -58,21 +58,13 @@
             <div class="code-center">
                 <pre>
                     <code class="language-python">
-                        from flask import Flask
-                        app = Flask(__name__)
-
-                        # route
-                        @app.route('/')
-                        # route function
-                        def home():
-                            # send 'hey!'
-                            return 'hey!'
-
-                        # listen
-                        if __name__ == "__main__":
-                            app.run(port=3000)
-                            # if you need to make it live debuging add 'debug=True'
-                            # app.run(port=3000, debug=True)
+                    from sklearn.impute import SimpleImputer
+                    # define the imputer
+                    imputer = SimpleImputer(missing_values=nan, strategy='mean')
+                    # transform the dataset
+                    transformed_values = imputer.fit_transform(values)
+                    # count the number of NaN values in each column
+                    print('Missing: %d' % isnan(transformed_values).sum())
                     </code>
                 </pre>
             </div>
