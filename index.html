@@ -26,7 +26,7 @@
             Codify
         </h2>
         <h5 class="tagline">
-            <span>Instantly</span> Convert your <span>Thoughs</span> into <span>Code</span>
+            <span>Instantly</span> Convert your <span>Thoughts</span> into <span>Code</span>
         </h5>
         <div class="nav text-center">
             <h5><a href="" class="active">Home</a></h5>
@@ -65,6 +65,14 @@
                     transformed_values = imputer.fit_transform(values)
                     # count the number of NaN values in each column
                     print('Missing: %d' % isnan(transformed_values).sum())
+                    </code>
+                </pre>
+            </div>
+            <div class="code-center">
+                <pre>
+                    <code class="language-python">
+                    df.fillna(df.mean())
+                    print('Missing: %d' % isnan(df).sum())
                     </code>
                 </pre>
             </div>

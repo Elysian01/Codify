@@ -1,5 +1,8 @@
-function addNewCard(query, code, intent, entities) {
-
+function addNewCard(data) {
+    query = data[0]["text"]
+    intent = data[0]["intent"]
+    entities = data[0]["intent"]
+    
     const cards = document.querySelector(".cards");
     cards.style.visibility = "visible";
     newCard = `
@@ -10,55 +13,60 @@ function addNewCard(query, code, intent, entities) {
                     <h5>Intent: <span>${intent}</span></h5>
                     <h5>Entities: <span>${entities}</span></h5>
                 </div>
-            </div>
-            <div class="code-center">
-                <pre>
-                    <code class="language-python">
-                        ${code}
-                    </code>
-                </pre>
-            </div>
-        </div>
-    `
-    cards.innerHTML = newCard + cards.innerHTML;
+            </div>`
+    
+    for(let i=0; i<data.length; i++) {
+        newCard += `<div class="code-center">
+                    <pre>
+                        <code class="language-python">
+                            ${data[i]['code']}
+                        </code>
+                    </pre>
+                </div>`
+    }
+        
+        
+        newCard += `</div>`
+    cards.innerHTML += newCard;
     Prism.highlightAll();
 
 }
 
 
 function getCode() {
-    addNewCard(
-        codes[0]["query"], codes[0]["code"],
-        codes[0]["intent"], codes[0]["entities"]
-    );
+    addNewCard(data);
 }
 
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min); 
 }
 
-codes = [
+const data = [
     {
         "id": 1,
-        "query": "Demo code for flask routing with port set to 3000, from backend",
+        "query": "replace null value with their mean values",
         "intent": "null_imputation",
         "entities": "mean",
+        "priority": 1,
         "code": `
-                from flask import Flask
-                app = Flask(__name__)
-
-                # route
-                @app.route('/')
-                # route function
-                def home():
-                    # send 'hey!'
-                    return 'hey!'
-
-                # listen
-                if __name__ == "__main__":
-                    app.run(port=3000)
-                    # if you need to make it live debuging add 'debug=True'
-                    # app.run(port=3000, debug=True)
+                 from sklearn.impute import SimpleImputer
+                # define the imputer
+                imputer = SimpleImputer(missing_values=nan, strategy='mean')
+                # transform the dataset
+                transformed_values = imputer.fit_transform(values)
+                # count the number of NaN values in each column
+                print('Missing: %d' % isnan(transformed_values).sum())
+            `
+    }, 
+    {
+        "id": 2,
+        "query": "replace null value with their mean values",
+        "intent": "null_imputation",
+        "entities": "mean",
+        "priority": 2,
+        "code": `
+                df.fillna(df.mean())
+                print('Missing: %d' % isnan(df).sum())
             `
     }
 ];
