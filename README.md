@@ -2,7 +2,7 @@
 
 ## Main Document [link](https://docs.google.com/document/d/1VLGMC88vcpBDdl5eVVEh7-N4CfgnXARCGvQ-abIaaJ4/edit)
 
-### Paper [lnk](https://docs.google.com/document/d/1QpLMpdDwWbfcGwMD62QJbZQZGohGW8tCQiJ6iqNyHlU/edit)
+### Paper [link](https://docs.google.com/document/d/1QpLMpdDwWbfcGwMD62QJbZQZGohGW8tCQiJ6iqNyHlU/edit)
 
 ### Report [link](https://docs.google.com/document/d/1n2JKxhYut9yX5hPgLXz9JLX-GtggQN0YrQS33GcYnZo/edit#)
 
