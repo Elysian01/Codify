@@ -1,6 +1,12 @@
 # Codify
 
-## Poster [link](https://docs.google.com/presentation/d/1CAFAT78GKO_CL5WbrqedFGwAzPaRCShIQmsZtMrGNo0/edit?usp=sharing)
+## Main Document [link](https://docs.google.com/document/d/1VLGMC88vcpBDdl5eVVEh7-N4CfgnXARCGvQ-abIaaJ4/edit)
+
+### Paper [lnk](https://docs.google.com/document/d/1QpLMpdDwWbfcGwMD62QJbZQZGohGW8tCQiJ6iqNyHlU/edit)
+
+### Report [link](https://docs.google.com/document/d/1n2JKxhYut9yX5hPgLXz9JLX-GtggQN0YrQS33GcYnZo/edit#)
+
+### Poster [link](https://docs.google.com/presentation/d/1CAFAT78GKO_CL5WbrqedFGwAzPaRCShIQmsZtMrGNo0/edit?usp=sharing)
 
 ## [Dataset Stats]()
 
