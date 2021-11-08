@@ -21,12 +21,8 @@ data = [
     {
         "id": 1,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "mean",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """ 
                     from sklearn.impute import SimpleImputer
@@ -40,12 +36,8 @@ data = [
     }, {
         "id": 2,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "mean",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 2,
         "code": """
                 df.fillna(df.mean())
@@ -55,12 +47,8 @@ data = [
     {
         "id": 3,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "median",
         "priority": 1,
         "code": """
                 from sklearn.impute import SimpleImputer
@@ -75,12 +63,8 @@ data = [
     {
         "id": 4,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "median",
         "priority": 2,
         "code": """
                 df.fillna(df.median())
@@ -90,12 +74,8 @@ data = [
     {
         "id": 5,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -104,12 +84,8 @@ data = [
     {
         "id": 6,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -118,12 +94,8 @@ data = [
     {
         "id": 7,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -132,12 +104,8 @@ data = [
     {
         "id": 8,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -146,12 +114,8 @@ data = [
     {
         "id": 9,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -160,12 +124,8 @@ data = [
     {
         "id": 10,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -174,12 +134,8 @@ data = [
     {
         "id": 11,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -188,12 +144,8 @@ data = [
     {
         "id": 12,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -202,12 +154,8 @@ data = [
     {
         "id": 13,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -216,12 +164,8 @@ data = [
     {
         "id": 14,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -230,12 +174,8 @@ data = [
     {
         "id": 15,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -244,12 +184,8 @@ data = [
     {
         "id": 16,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -258,12 +194,8 @@ data = [
     {
         "id": 17,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -272,12 +204,8 @@ data = [
     {
         "id": 18,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -286,12 +214,8 @@ data = [
     {
         "id": 19,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -300,12 +224,8 @@ data = [
     {
         "id": 20,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -314,12 +234,8 @@ data = [
     {
         "id": 21,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -328,12 +244,8 @@ data = [
     {
         "id": 22,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -342,12 +254,8 @@ data = [
     {
         "id": 23,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -356,12 +264,8 @@ data = [
     {
         "id": 24,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -370,12 +274,8 @@ data = [
     {
         "id": 25,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -384,12 +284,8 @@ data = [
     {
         "id": 26,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -398,12 +294,8 @@ data = [
     {
         "id": 27,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -412,12 +304,8 @@ data = [
     {
         "id": 28,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -426,12 +314,8 @@ data = [
     {
         "id": 29,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -440,12 +324,8 @@ data = [
     {
         "id": 30,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -454,12 +334,8 @@ data = [
     {
         "id": 31,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -468,12 +344,8 @@ data = [
     {
         "id": 32,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -482,12 +354,8 @@ data = [
     {
         "id": 33,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -496,12 +364,8 @@ data = [
     {
         "id": 34,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -510,12 +374,8 @@ data = [
     {
         "id": 35,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -524,12 +384,8 @@ data = [
     {
         "id": 36,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -538,12 +394,8 @@ data = [
     {
         "id": 37,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -552,12 +404,8 @@ data = [
     {
         "id": 38,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -566,12 +414,8 @@ data = [
     {
         "id": 39,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -580,12 +424,8 @@ data = [
     {
         "id": 40,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -594,12 +434,8 @@ data = [
     {
         "id": 41,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -608,12 +444,8 @@ data = [
     {
         "id": 42,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -622,12 +454,8 @@ data = [
     {
         "id": 43,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -636,12 +464,8 @@ data = [
     {
         "id": 44,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -650,12 +474,8 @@ data = [
     {
         "id": 45,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -664,12 +484,8 @@ data = [
     {
         "id": 46,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -678,12 +494,8 @@ data = [
     {
         "id": 47,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -692,12 +504,8 @@ data = [
     {
         "id": 48,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -706,12 +514,8 @@ data = [
     {
         "id": 49,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -720,12 +524,8 @@ data = [
     {
         "id": 50,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -734,12 +534,8 @@ data = [
     {
         "id": 51,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -748,12 +544,8 @@ data = [
     {
         "id": 52,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -762,12 +554,8 @@ data = [
     {
         "id": 53,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -776,12 +564,8 @@ data = [
     {
         "id": 54,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -790,12 +574,8 @@ data = [
     {
         "id": 55,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -804,12 +584,8 @@ data = [
     {
         "id": 56,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -818,12 +594,8 @@ data = [
     {
         "id": 57,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -832,12 +604,8 @@ data = [
     {
         "id": 58,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -846,12 +614,8 @@ data = [
     {
         "id": 59,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -860,12 +624,8 @@ data = [
     {
         "id": 60,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -874,12 +634,8 @@ data = [
     {
         "id": 61,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -888,12 +644,8 @@ data = [
     {
         "id": 62,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -902,12 +654,8 @@ data = [
     {
         "id": 63,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -916,12 +664,8 @@ data = [
     {
         "id": 64,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -930,12 +674,8 @@ data = [
     {
         "id": 65,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -944,12 +684,8 @@ data = [
     {
         "id": 66,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -958,12 +694,8 @@ data = [
     {
         "id": 67,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -972,12 +704,8 @@ data = [
     {
         "id": 68,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -986,12 +714,8 @@ data = [
     {
         "id": 69,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1000,12 +724,8 @@ data = [
     {
         "id": 70,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1014,12 +734,8 @@ data = [
     {
         "id": 71,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1028,12 +744,8 @@ data = [
     {
         "id": 72,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1042,12 +754,8 @@ data = [
     {
         "id": 73,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1056,12 +764,8 @@ data = [
     {
         "id": 74,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1070,12 +774,8 @@ data = [
     {
         "id": 75,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1084,12 +784,8 @@ data = [
     {
         "id": 76,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1098,12 +794,8 @@ data = [
     {
         "id": 77,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1112,12 +804,8 @@ data = [
     {
         "id": 78,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1126,12 +814,8 @@ data = [
     {
         "id": 79,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1140,12 +824,8 @@ data = [
     {
         "id": 80,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1154,12 +834,8 @@ data = [
     {
         "id": 81,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1168,12 +844,8 @@ data = [
     {
         "id": 82,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1182,12 +854,8 @@ data = [
     {
         "id": 83,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1196,12 +864,8 @@ data = [
     {
         "id": 84,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1210,12 +874,8 @@ data = [
     {
         "id": 85,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1224,12 +884,8 @@ data = [
     {
         "id": 86,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1238,12 +894,8 @@ data = [
     {
         "id": 87,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1252,12 +904,8 @@ data = [
     {
         "id": 88,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1266,12 +914,8 @@ data = [
     {
         "id": 89,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1280,12 +924,8 @@ data = [
     {
         "id": 90,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1294,12 +934,8 @@ data = [
     {
         "id": 91,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1308,12 +944,8 @@ data = [
     {
         "id": 92,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1322,12 +954,8 @@ data = [
     {
         "id": 93,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1336,12 +964,8 @@ data = [
     {
         "id": 94,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1350,12 +974,8 @@ data = [
     {
         "id": 95,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1364,12 +984,8 @@ data = [
     {
         "id": 96,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1378,12 +994,8 @@ data = [
     {
         "id": 97,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1392,12 +1004,8 @@ data = [
     {
         "id": 98,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1406,12 +1014,8 @@ data = [
     {
         "id": 99,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1420,12 +1024,8 @@ data = [
     {
         "id": 100,
         "intent": "null_imputation",
-        "entities": [
-            [
-                "median",
-                "STATISTICS"
-            ]
-        ],
+        "entity_name": "STATISTICS",
+        "entity_value": "mean",
         "priority": 1,
         "code": """
         
@@ -1436,3 +1036,4 @@ data = [
 
 if __name__ == '__main__':
     export_to_json(data)
+    print(f"Codify Dataset Created and File Stored with Name 'codidy_codebase.json'")

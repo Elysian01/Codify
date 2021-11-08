@@ -10,14 +10,14 @@ class IntentClassfication:
             self.model_path = os.path.join(os.path.dirname(__file__),
                                            "models",
                                            "intent_classification_models",
-                                           "Codify_WordEmd_0.91acc.sav")
+                                           "Codify_WordEmd_0.89acc.sav")
         else:
             self.model_path = model_path
         if label_path is None:
             self.label_path = os.path.join(os.path.dirname(__file__),
                                            "models",
                                            "intent_classification_models",
-                                           "Codify_WordEmd_0.91acc_labels.txt")
+                                           "Codify_WordEmd_0.89acc_labels.txt")
         else:
             self.label_path = label_path
 
