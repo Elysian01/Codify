@@ -10,6 +10,17 @@ import "codemirror/theme/material.css";
 
 import "codemirror/mode/python/python";
 
+const Code = (props) => (
+    <div>
+    {
+      props.val.map(line => (
+        <div className="code">{line}</div>
+      ))
+    }
+    
+    </div>
+)
+
 class App extends Component {
   constructor() {
     super();
@@ -89,7 +100,8 @@ class App extends Component {
         .then(res => {
           console.log(res.data);
           if(res.data.code){
-            this.setState({ output : res.data.code });
+            this.setState({ output: res.data.code });
+            
           }
           
         })
@@ -104,7 +116,13 @@ class App extends Component {
   }
 
   addCode = (e) => {
-    this.setState({ python : this.state.python + this.state.output[0] })
+    console.log(e.currentTarget.id);
+    let filtered = "";
+    for(let i = 0; i < this.state.output[e.currentTarget.id].length; i++) {
+      filtered += this.state.output[e.currentTarget.id][i] + '\n';
+    }
+    console.log(filtered);
+    this.setState({ python : this.state.python + '\n' + filtered });
   }
 
   render() {
@@ -154,19 +172,26 @@ class App extends Component {
               <div>
               
                 {
-                  this.state.output 
-                  && 
-                  this.state.output.map(op => {
-                    op.map(o => (
-                      <div className="code">
-                        {o}
-                      </div>
-                    ))
-                    { return this.state.output && <button className="w3-button add-btn w3-purple" onClick={this.addCode} >Accept Code</button> }
-                  })
-                  }
+                  
+                    this.state.output
+                    && 
+                    this.state.output.map((op, index) => {                    
+                      return (
+                        <div>
+                          <Code val={op} key={index} />
+                          <button id = {index} className="w3-button add-btn w3-purple" onClick={this.addCode} key={index} >Accept Code</button>
+                          <br />
+                          <br />
 
+                        </div>
+                      )
+                    })
+                  } 
                 
+                
+               {/* { return this.state.output && <button className="w3-button add-btn w3-purple" onClick={this.addCode} key={index} >Accept Code</button> } */}
+
+                {/* {this.state.output &̥& this.state.output[0][0]} */}
                 {/* <div className="code" >      
                   from sklearn.impute import SimpleImputer <br/>
                   # define the imputer <br/>
