@@ -19,7 +19,8 @@ class App extends Component {
     this.state = {
       id: "",
       python: "",
-      output : [`dictionary1 = ${x} "name" : "Joy", "age": 25 ${y} dictionary2 = ${x} "name": "Joy", "city": "New York" ${y}  merged_dict = ${x} + **dictionary1, **dictionary2 + ${y} print("Merged dictionary:", merged_dict) })`, `dictionary1 = ${x} + "name" : "Joy", "age": 25 + ${y} dictionary2 = ${x} + "name": "Joy", "city": "New York" + ${y}  merged_dict = ${x} + **dictionary1, **dictionary2 + ${y} print("Merged dictionary:", merged_dict) })`, `dictionary1 = ${x} + "name" : "Joy", "age": 25 + ${y} dictionary2 = ${x} + "name": "Joy", "city": "New York" + ${y}  merged_dict = ${x} + **dictionary1, **dictionary2 + ${y} print("Merged dictionary:", merged_dict) })`],
+      output : ""
+      // output : [`dictionary1 = ${x} "name" : "Joy", "age": 25 ${y} dictionary2 = ${x} "name": "Joy", "city": "New York" ${y}  merged_dict = ${x} + **dictionary1, **dictionary2 + ${y} print("Merged dictionary:", merged_dict) })`, `dictionary1 = ${x} + "name" : "Joy", "age": 25 + ${y} dictionary2 = ${x} + "name": "Joy", "city": "New York" + ${y}  merged_dict = ${x} + **dictionary1, **dictionary2 + ${y} print("Merged dictionary:", merged_dict) })`, `dictionary1 = ${x} + "name" : "Joy", "age": 25 + ${y} dictionary2 = ${x} + "name": "Joy", "city": "New York" + ${y}  merged_dict = ${x} + **dictionary1, **dictionary2 + ${y} print("Merged dictionary:", merged_dict) })`],
     };
     
     this.pusher = new Pusher("e8a9556db3bd933d3fb1", {
@@ -84,7 +85,18 @@ class App extends Component {
         const comment = this.state.python.split('#')[1].split('\n')[0];
         console.log(comment);
         // post request
-        axios.post()
+        axios.post("http://127.0.0.1:9000/codify", { text : comment })
+        .then(res => {
+          console.log(res.data);
+          if(res.data.code){
+            this.setState({ output : res.data.code });
+          }
+          
+        })
+        .catch(err => {
+          console.log(err.message);
+        });
+
       }else if(this.state.python.split('#').length - 1 >= 1){
         console.log('multiple comments');
       }
@@ -141,8 +153,21 @@ class App extends Component {
             { 
               <div>
               
-                <div className="code" >      
-                  {/* {op} */}
+                {
+                  this.state.output 
+                  && 
+                  this.state.output.map(op => {
+                    op.map(o => (
+                      <div className="code">
+                        {o}
+                      </div>
+                    ))
+                    { return this.state.output && <button className="w3-button add-btn w3-purple" onClick={this.addCode} >Accept Code</button> }
+                  })
+                  }
+
+                
+                {/* <div className="code" >      
                   from sklearn.impute import SimpleImputer <br/>
                   # define the imputer <br/>
                   imputer = SimpleImputer(missing_values=nan, s trategy='mean') <br/>
@@ -150,16 +175,16 @@ class App extends Component {
                   transformed_values = imputer.fit_transform(values) <br/>
                   # count the number of NaN values in each column <br/>
                   print('Missing: %d' % isnan(transformed_values).sum()) <br/>
+
                   <button className="w3-button add-btn w3-purple" onClick={this.addCode} >Accept Code</button>
-                </div>
+                </div> */}
               
 
-                <div className="code" >      
-                  {/* {op} */}
+                {/* <div className="code" >      
                   df.fillna(df.mean()) <br />
                   print('Missing: %d' % isnan(df).sum()) <br/>
                     <button className="w3-button add-btn w3-purple" onClick={this.addCode} >Accept Code</button>
-                </div>
+                </div> */}
               </div>
             }
             

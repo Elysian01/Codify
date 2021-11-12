@@ -33,7 +33,7 @@
   height: 450px;
   /* max-height: calc(100% - 30px); */
   overflow: auto;
-  font-size:22px;
+  font-size:15px;
   color: white;
 } 
 
@@ -45,7 +45,7 @@
   left: 870px;
   overflow: hidden;
   /* font-size: larger; */
-  font-size:22px;
+  font-size:15px;
 }
 
 .submit-div{

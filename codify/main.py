@@ -1,9 +1,7 @@
 import pandas as pd
 
-# from .intent_classification import *
-# from .entity_recognition import *
-from intent_classification import *
-from entity_recognition import *
+from .intent_classification import *
+from .entity_recognition import *
 
 
 class Codify:
