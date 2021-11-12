@@ -39,6 +39,8 @@ Custom Named Entity Recognition annotated using NER Annotated by tecoholic and S
 
 [Download](https://drive.google.com/drive/folders/1-gWCai8P_kkcuBMKd4WyTVPI0drsV6rP?usp=sharing) glove embeddings folder and place it inside "./codify/intent_word_emb" folder
 
+[Download](https://drive.google.com/drive/folders/1khbEs2sj4a3tKqCpH-AvN1siFkYdEhYX?usp=sharing) entity recognition model folder and place it inside "./codify/models" folder
+
 ## Credits
 
 * NER Annotator -  https://github.com/tecoholic/ner-annotator
