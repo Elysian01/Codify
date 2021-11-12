@@ -155,7 +155,7 @@ def model(X_train, y_train, X_test, y_test):
 models = model(X_train, y_train, X_test, y_test)
 
 
-# evaluate classification models
+# evaluate classification
 
 for i in range(len(model)):
     print("Model ", i)

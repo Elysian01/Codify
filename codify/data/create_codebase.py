@@ -168,7 +168,7 @@ data = [
         "id": 8,
         "intent": "describe_data",
         "entity_name": "STATISTICS",
-        "entity_value": "statistical",
+        "entity_value": "statistics",
         "priority": 1,
         "code": """
             from IPython.display import display
@@ -247,6 +247,7 @@ data = [
         "entity_value": "",
         "priority": 1,
         "code": """
+        from IPython.display import display
         
         def null_columns_percentage(df) -> pd.DataFrame:
             '''
@@ -269,32 +270,32 @@ data = [
     },
     {
         "id": 11,
-        "intent": "null_imputation",
-        "entity_name": "STATISTICS",
-        "entity_value": "mean",
+        "intent": "view_data",
+        "entity_name": "VIEW",
+        "entity_value": "head",
         "priority": 1,
         "code": """
-        
+        df.head()
         """
     },
     {
         "id": 12,
-        "intent": "null_imputation",
-        "entity_name": "STATISTICS",
-        "entity_value": "mean",
+        "intent": "view_data",
+        "entity_name": "VIEW",
+        "entity_value": "tail",
         "priority": 1,
         "code": """
-        
+        df.tail()
         """
     },
     {
         "id": 13,
-        "intent": "null_imputation",
-        "entity_name": "STATISTICS",
-        "entity_value": "mean",
+        "intent": "view_data",
+        "entity_name": "VIEW",
+        "entity_value": "sample",
         "priority": 1,
         "code": """
-        
+        df.sample()
         """
     },
     {

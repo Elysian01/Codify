@@ -52,6 +52,4 @@ if __name__ == '__main__':
         "Code for all Regression models"
     ]
     print(f"Server running on http://127.0.0.1:{PORT}/")
-    print(
-        f"for getting code from text, post request on http://127.0.0.1:{PORT}/codify/")
-    app.run(host="127.0.0.1", port=PORT, debug=True)
+    app.run(host="127.0.0.1", port=PORT)
