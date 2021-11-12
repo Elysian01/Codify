@@ -17,16 +17,22 @@ class EntityRecognition:
 
     def get_entities(self, text):
         doc = self.model(text)
-        for ent in doc.ents:
-            entity_name = ent.label_
-            entity_value = ent.text
-            break
-        response = {
-            "text": text,
-            "entity_name": entity_name,
-            "entity_value": entity_value,
-            "entities": [(ent.label_, ent.text) for ent in doc.ents],
-        }
+        if doc.ents:
+            for ent in doc.ents:
+                entity_name = ent.label_
+                entity_value = ent.text
+                break
+            response = {
+                "text": text,
+                "entity_name": entity_name,
+                "entity_value": entity_value,
+                "entities": [(ent.label_, ent.text) for ent in doc.ents],
+            }
+        else:
+            response = {
+                "text": text,
+                "entities": [(ent.label_, ent.text) for ent in doc.ents],
+            }
         # print("For text: {}\nEntities: {}".format(text, response))
         return response
 
