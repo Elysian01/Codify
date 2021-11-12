@@ -22,14 +22,13 @@ def codify_request():
         Returns:
 
         {
-            "entities": [
-                [
-                    "median",
-                    "STATISTICS"
-                ]
-            ],
-            "intent": "null_imputation",
-            "text": "insert median values replacing with the null values"
+            'text': 'insert median values replacing with the null values',
+            'intent': 'null_imputation',
+            'entities': [('STATISTICS', 'median')],
+            'code': [
+                ['from sklearn.impute import SimpleImputer', '# define the imputer', "imputer = SimpleImputer(missing_values=nan, strategy='median')", '# transform the dataset', 'transformed_values = imputer.fit_transform(values)', '# count the number of NaN values in each column', "print('Missing: %d' % isnan(transformed_values).sum())"],
+                ['df.fillna(df.median())', "print('Missing: %d' % isnan(df).sum())"]
+            ]
         }
     """
     data = request.get_json()
@@ -52,4 +51,7 @@ if __name__ == '__main__':
         "Perform Random Forest Regression",
         "Code for all Regression models"
     ]
+    print(f"Server running on http://127.0.0.1:{PORT}/")
+    print(
+        f"for getting code from text, post request on http://127.0.0.1:{PORT}/codify/")
     app.run(host="127.0.0.1", port=PORT, debug=True)

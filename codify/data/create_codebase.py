@@ -40,8 +40,8 @@ data = [
         "entity_value": "mean",
         "priority": 2,
         "code": """
-                df.fillna(df.mean())
-                print('Missing: %d' % isnan(df).sum())
+                df.fillna(df.mean(), inplace = True)
+                print('Missing: %d' % isnan(df).sum().sum())
         """
     },
     {
@@ -67,8 +67,8 @@ data = [
         "entity_value": "median",
         "priority": 2,
         "code": """
-                df.fillna(df.median())
-                print('Missing: %d' % isnan(df).sum())
+                df.fillna(df.median(), inplace = True)
+                print('Missing: %d' % isnan(df).sum().sum())
         """
     },
     {
@@ -90,7 +90,7 @@ data = [
         "priority": 1,
         "code": """
         from sklearn.model_selection import train_test_split
-        
+
         X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.2, random_state = 41)
 
         print("Shape of X train = ",X_train.shape)
@@ -217,6 +217,8 @@ data = [
                 else:
                     print(
                         "\nCongrats!!, The Dataframe has NO NULL VALUES\n")
+                        
+            statistics(df)
         """
     },
     {
@@ -226,25 +228,43 @@ data = [
         "entity_value": "classification",
         "priority": 1,
         "code": """
-        from sklearn.metrics import classification_report
         from sklearn.metrics import accuracy_score
+        from sklearn.metrics import classification_report
 
-
-        for i in range(len(model)):
-            print("Model ", i)
-            print(classification_report(y_test,model[i].predict(X_test)))
-            print(accuracy_score(y_test,model[i].predict(X_test)))
-            print()
+        i = 0
+        for key, value in model_dict.items():
+            print(f"{value} Model ")
+            print(f"\nClassification Report: \n{classification_report(y_test, models[i].predict(X_test))}")
+            print(f"\n{value} model accuracy: {round(accuracy_score(y_test, models[i].predict(X_test)), 2)}")
+            print(f'\n{"-"*55}\n')
+            i+=1
         """
     },
     {
         "id": 10,
-        "intent": "null_imputation",
-        "entity_name": "STATISTICS",
-        "entity_value": "mean",
+        "intent": "null_percent",
+        "entity_name": "",
+        "entity_value": "",
         "priority": 1,
         "code": """
         
+        def null_columns_percentage(df) -> pd.DataFrame:
+            '''
+                Prints Null Information of dataframe,i.e. only the number of rows having null values and their null percentage
+            '''
+            print("\nNull Information of Dataframe: \n")
+            null_df = pd.DataFrame(df.isnull().sum()).reset_index()
+            null_df.columns = ["column_name", "null_rows"]
+            null_df["null_percentage"] = null_df["null_rows"]*100 / df.shape[0]
+            null_df = null_df[null_df["null_percentage"] != 0].sort_values(
+                "null_percentage", ascending=False).reset_index(drop=True)
+            print(
+                f"\nThere are total {null_df.shape[0]} columns having null values out of {df.shape[1]} columns in dataframe\n")
+            display(null_df)
+            return null_df
+
+
+        null_columns_percentage(df)
         """
     },
     {

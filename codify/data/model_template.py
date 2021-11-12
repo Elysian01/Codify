@@ -1,6 +1,4 @@
 # load csv file
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import classification_report
 from IPython.display import display
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
@@ -8,6 +6,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
 import pandas as pd
 df = pd.read_csv("./data.csv", encoding="utf-8")
 
@@ -17,7 +17,7 @@ df.head()
 # percentage of null values
 
 
-def null_columns_percentage(self, df) -> pd.DataFrame:
+def null_columns_percentage(df) -> pd.DataFrame:
     '''
         Prints Null Information of dataframe,i.e. only the number of rows having null values and their null percentage
     '''
@@ -33,9 +33,12 @@ def null_columns_percentage(self, df) -> pd.DataFrame:
     return null_df
 
 
+null_columns_percentage(df)
+
+
 # replace null values with their mean values
-df.fillna(df.mean())
-print('Missing: %d' % df.isnull().sum())
+df.fillna(df.mean(), inplace=True)
+print('Missing: %d' % df.isnull().sum().sum())
 
 # dataset statistics
 
@@ -90,6 +93,8 @@ def statistics(df) -> None:
         print(
             "\nCongrats!!, The Dataframe has NO NULL VALUES\n")
 
+
+statistics(df)
 
 # Split the dataset into train and test set
 X_train, X_test, y_train, y_test = train_test_split(
