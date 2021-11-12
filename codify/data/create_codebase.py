@@ -90,7 +90,7 @@ data = [
         "priority": 1,
         "code": """
         from sklearn.model_selection import train_test_split
-        
+
         X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.2, random_state = 41)
 
         print("Shape of X train = ",X_train.shape)

@@ -17,9 +17,15 @@ class EntityRecognition:
 
     def get_entities(self, text):
         doc = self.model(text)
+        for ent in doc.ents:
+            entity_name = ent.label_
+            entity_value = ent.text
+            break
         response = {
             "text": text,
-            "entities": [(ent.text, ent.label_) for ent in doc.ents],
+            "entity_name": entity_name,
+            "entity_value": entity_value,
+            "entities": [(ent.label_, ent.text) for ent in doc.ents],
         }
         # print("For text: {}\nEntities: {}".format(text, response))
         return response
@@ -30,3 +36,4 @@ if __name__ == '__main__':
     er = EntityRecognition()
     text = "insert median values replacing with the null values"
     response = er.get_entities(text)
+    print(response)

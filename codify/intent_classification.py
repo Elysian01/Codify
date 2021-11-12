@@ -1,6 +1,7 @@
 import os
 import pickle
-from .intent_word_emb.word_embeding_classifier import WordEmebdingClassifier
+from intent_word_emb.word_embeding_classifier import WordEmebdingClassifier
+# from .intent_word_emb.word_embeding_classifier import WordEmebdingClassifier
 
 
 class IntentClassfication:
