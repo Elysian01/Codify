@@ -16,7 +16,7 @@
 | Total Number of Users Queries | 525 |
 | Total Number of Unique Intents | 20 |
 | Total Number of  Unique Entity | 10 |
-| Total Number of  Unique Python Code Snippets | 85 |
+| Total Number of  Unique Python Code Snippets | 100 |
 
 
 ## [Intent Classification](https://github.com/Elysian01/Intent-Classification-Benchmark)
