@@ -161,7 +161,9 @@
 
 
 div.scroll {
-  overflow-x: hidden;
-  overflow-y: auto;
+  background: #F5F5F5;
+  width: 500px;
+  height: 510px;
+  overflow: auto;
   text-align:justify;
 }

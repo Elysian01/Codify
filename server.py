@@ -1,14 +1,18 @@
 from flask import Flask
 from flask import request
+from flask_cors import CORS, cross_origin
 from codify import Codify
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 PORT = 9000
 codify = Codify()
 print("Intent Classification and Entity Recognition Model Successfully Loaded....")
 
 
+@cross_origin()
 @app.route('/codify', methods=['POST'])
 def codify_request():
     """Given text input, this functions identifies the intent and entities present in it and returns in json format

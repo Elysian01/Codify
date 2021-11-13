@@ -26,12 +26,12 @@ class EntityRecognition:
                 "text": text,
                 "entity_name": entity_name,
                 "entity_value": entity_value,
-                "entities": [(ent.label_, ent.text) for ent in doc.ents],
+                "entities": [[ent.label_, ent.text] for ent in doc.ents],
             }
         else:
             response = {
                 "text": text,
-                "entities": [(ent.label_, ent.text) for ent in doc.ents],
+                "entities": "",
             }
         # print("For text: {}\nEntities: {}".format(text, response))
         return response

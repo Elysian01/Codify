@@ -1,5 +1,6 @@
 ## Directories
 /codify/intent_word_emb/embeddings/
+/codify/models/entity_recognition/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

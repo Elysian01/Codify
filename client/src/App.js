@@ -10,6 +10,17 @@ import "codemirror/theme/material.css";
 
 import "codemirror/mode/python/python";
 
+const Code = (props) => (
+    <div>
+    {
+      props.val.map(line => (
+        <div className="code">{line}</div>
+      ))
+    }
+    
+    </div>
+)
+
 class App extends Component {
   constructor() {
     super();
@@ -83,15 +94,14 @@ class App extends Component {
        // if code is present, and there is only one comment in the code
       else if(this.state.python.split('#').length - 1 === 1){
         const comment = this.state.python.split('#')[1].split('\n')[0];
-        console.log(comment);
         // post request
         axios.post("http://127.0.0.1:9000/codify", { text : comment })
         .then(res => {
           console.log(res.data);
           if(res.data.code){
-            // this.setState({ output : res.data.code });
-            // this.setState({ output : [['from sklearn.impute import SimpleImputer', '# define the imputer', "imputer = SimpleImputer(missing_values=nan, strategy='median')", '# transform the dataset', 'transformed_values = imputer.fit_transform(values)', '# count the number of NaN values in each column', "print('Missing: %d' % isnan(transformed_values).sum())"], ['df.fillna(df.median())', "print('Missing: %d' % isnan(df).sum())"]] });
-
+            this.setState({ output: res.data.code });
+            // this.setState({ output : [['from sklearn.impute import SimpleImputer', '# define the imputer', "imputer = SimpleImputer(missing_values=nan, strategy='median')", '# transform the dataset', 'transformed_values = imputer.fit_transform(values)', '# count the number of NaN values in each column', "print('Missing: %d' % isnan(transformed_values).sum())", 'from sklearn.impute import SimpleImputer', '# define the imputer', "imputer = SimpleImputer(missing_values=nan, strategy='median')", '# transform the dataset', 'transformed_values = imputer.fit_transform(values)', '# count the number of NaN values in each column', "print('Missing: %d' % isnan(transformed_values).sum())"], ['df.fillna(df.median())', "print('Missing: %d' % isnan(df).sum())"]] });
+            
           }
           
         })
@@ -106,7 +116,13 @@ class App extends Component {
   }
 
   addCode = (e) => {
-    this.setState({ python : this.state.python + this.state.output[0] })
+    console.log(e.currentTarget.id);
+    let filtered = "";
+    for(let i = 0; i < this.state.output[e.currentTarget.id].length; i++) {
+      filtered += this.state.output[e.currentTarget.id][i] + '\n';
+    }
+    console.log(filtered);
+    this.setState({ python : this.state.python + '\n' + filtered });
   }
 
   render() {
@@ -161,19 +177,26 @@ class App extends Component {
               <div className="scroll">
               
                 {
-                  this.state.output 
-                  && 
-                  this.state.output.map(op => {
-                    op.map(o => (
-                      <div className="code">
-                        {o}
-                      </div>
-                    ))
-                    { return this.state.output && <button className="w3-button add-btn w3-purple" onClick={this.addCode} >Accept Code</button> }
-                  })
-                  }
+                  
+                    this.state.output
+                    && 
+                    this.state.output.map((op, index) => {                    
+                      return (
+                        <div>
+                          <Code val={op} key={index} />
+                          <button id = {index} className="w3-button add-btn w3-purple" onClick={this.addCode} key={index} >Accept Code</button>
+                          <br />
+                          <br />
 
+                        </div>
+                      )
+                    })
+                  } 
                 
+                
+               {/* { return this.state.output && <button className="w3-button add-btn w3-purple" onClick={this.addCode} key={index} >Accept Code</button> } */}
+
+                {/* {this.state.output &̥& this.state.output[0][0]} */}
                 {/* <div className="code" >      
                   from sklearn.impute import SimpleImputer <br/>
                   # define the imputer <br/>

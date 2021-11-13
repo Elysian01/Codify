@@ -16,7 +16,7 @@
 | Total Number of Users Queries | 525 |
 | Total Number of Unique Intents | 20 |
 | Total Number of  Unique Entity | 10 |
-| Total Number of  Unique Python Code Snippets | 85 |
+| Total Number of  Unique Python Code Snippets | 100 |
 
 
 ## [Intent Classification](https://github.com/Elysian01/Intent-Classification-Benchmark)
@@ -38,6 +38,8 @@ Custom Named Entity Recognition annotated using NER Annotated by tecoholic and S
 ## Get Started
 
 [Download](https://drive.google.com/drive/folders/1-gWCai8P_kkcuBMKd4WyTVPI0drsV6rP?usp=sharing) glove embeddings folder and place it inside "./codify/intent_word_emb" folder
+
+[Download](https://drive.google.com/drive/folders/1khbEs2sj4a3tKqCpH-AvN1siFkYdEhYX?usp=sharing) entity recognition model folder and place it inside "./codify/models" folder
 
 ## Credits
 
