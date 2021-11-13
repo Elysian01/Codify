@@ -1,0 +1,8 @@
+load csv file
+head of dataset
+display null values in percent
+replace null values with their mean values
+dataset statistics
+Split the dataset into train and test set
+fit all classification models
+evaluate classification 
