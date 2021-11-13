@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic", sans-serif;
+}
+
+:root {
+  --primary-color: #fe4164;
+  --secondary-color: #007fff;
+  --max-window-width: 70%;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+
+.logo {
+  max-width: 80px;
+}
+
+.header h2 {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-color);
+}
+
 .playground {
   position: fixed;
   /* top: 0;
@@ -119,4 +157,13 @@
   font-weight: bold;
   color: var(--primary-color);
   text-decoration-color: var(--primary-color);
+}
+
+
+div.scroll {
+  background: #F5F5F5;
+  width: 500px;
+  height: 510px;
+  overflow: auto;
+  text-align:justify;
 }

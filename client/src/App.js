@@ -94,13 +94,13 @@ class App extends Component {
        // if code is present, and there is only one comment in the code
       else if(this.state.python.split('#').length - 1 === 1){
         const comment = this.state.python.split('#')[1].split('\n')[0];
-        console.log(comment);
         // post request
         axios.post("http://127.0.0.1:9000/codify", { text : comment })
         .then(res => {
           console.log(res.data);
           if(res.data.code){
             this.setState({ output: res.data.code });
+            // this.setState({ output : [['from sklearn.impute import SimpleImputer', '# define the imputer', "imputer = SimpleImputer(missing_values=nan, strategy='median')", '# transform the dataset', 'transformed_values = imputer.fit_transform(values)', '# count the number of NaN values in each column', "print('Missing: %d' % isnan(transformed_values).sum())", 'from sklearn.impute import SimpleImputer', '# define the imputer', "imputer = SimpleImputer(missing_values=nan, strategy='median')", '# transform the dataset', 'transformed_values = imputer.fit_transform(values)', '# count the number of NaN values in each column', "print('Missing: %d' % isnan(transformed_values).sum())"], ['df.fillna(df.median())', "print('Missing: %d' % isnan(df).sum())"]] });
             
           }
           
@@ -144,6 +144,11 @@ class App extends Component {
           <h5 class="tagline">
               <span>Instantly</span> Convert your <span>Thoughts</span> into <span>Code</span>
           </h5>
+          <div class="nav text-center">
+            <h5><a href="/Home" className="primary-color text">Home</a></h5>
+            <b  className="active">.</b>
+            <h5><a href="/">Editor</a></h5>
+          </div>
         </div>
         <div className="playground">
           <form onSubmit={this.onSubmit}>
@@ -169,7 +174,7 @@ class App extends Component {
           {this.state.output && <div><h4> Suggestions</h4></div>}
           <div className="output" >
             { 
-              <div>
+              <div className="scroll">
               
                 {
                   
