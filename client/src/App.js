@@ -111,6 +111,21 @@ class App extends Component {
 
       }else if(this.state.python.split('#').length - 1 >= 1){
         console.log('multiple comments');
+
+        const comment = this.state.python.split('#')[this.state.python.split('#').length - 1].split('\n')[0];
+        console.log(comment);
+        // post request
+        axios.post("http://127.0.0.1:9000/codify", { text : comment })
+        .then(res => {
+          console.log(res.data);
+          if(res.data.code){
+            this.setState({ output: res.data.code });
+          }
+          
+        })
+        .catch(err => {
+          console.log(err.message);
+        });
       }
     }
   }
