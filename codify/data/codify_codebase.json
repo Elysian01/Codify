@@ -1164,5 +1164,226 @@
           "code": [
                ""
           ]
+     },{
+          "id": 101,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "data['Native Country'].fillna(data['Native Country'].mode(), inplace=True)"
+          ]
+     },{
+          "id": 102,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "sub2[column_name].fillna((sub2['column_name’].mean()), inplace=True)"
+          ]
+     },{
+          "id": 103,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "data['Native Country'].fillna(data['Native Country'].median(), inplace=True)"
+          ]
+     },{
+          "id": 104,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "# importing pandas as pd",
+               "import pandas as pd",
+               "# Making data frame from the csv file",
+               "df = pd.read_csv('nba.csv')",
+               "# will replace  Nan value in dataframe with value -99999", 
+               "df.replace(to_replace = np.nan, value =-99999)"
+               
+          ]
+     },{
+          "id": 105,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "updated_df = new df.dropna(axis=0)"
+          ]
+     },{
+          "id": 106,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "df.dropna(inplace=True)"
+          ]
+     },{
+          "id": 107,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "isnull()"
+          ]
+     },{
+          "id": 108,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "from sklearn.preprocessing import LabelEncoder",
+               "encoder = LabelEncoder()",
+               "# apply on df",
+               "df['status'] = encoder.fit_transform(df['status'])",
+               "# can allso use the pandas.map",
+               "df['status'] = df['status'].map(lambda x: 1 if x=='Placed' else 0)",
+               "#apply on np.array",
+               "ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [1])], remainder='passthrough')",
+               "X = np.array(ct.fit_transform(X))"  
+          ]
+     },{
+          "id": 109,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "from sklearn.preprocessing import LabelEncoder",
+               "lb_make = LabelEncoder()",
+               "obj_df['make_code'] = lb_make.fit_transform(obj_df['make'])",
+               "obj_df[['make', 'make_code']].head(11)"
+          ]
+     },{
+          "id": 110,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "from sklearn.preprocessing import OneHotEncoder",
+               "encoder = OneHotEncoder()",
+               "# apply on df",
+               "color_1hot = encoder.fit_transform(df['ocean_proximity'].values.reshape(-1,1))",
+               "color_1hot_df = pd.DataFrame(color_1hot.toarray())",
+               "df = pd.concat([df.drop('ocean_proximity', axis=1), color_1hot_df], axis=1)",
+               "# can allso use the pandas dummies",
+               "df = pd.get_dummies(df, columns=['ocean_proximity'])",
+               "# apply on np.array",
+               "X[:, 2] = le.fit_transform(X[:, 2])"
+          ]
+     },{
+          "id": 111,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "# example of a one hot encoding",
+               "from numpy import asarray",
+               "from sklearn.preprocessing import OneHotEncoder",
+               "# define data",
+               "data = asarray([['red'], ['green'], ['blue']])",
+               "print(data)",
+               "# define one hot encoding",
+               "encoder = OneHotEncoder(sparse=False)",
+               "# transform data",
+               "onehot = encoder.fit_transform(data)",
+               "print(onehot)"
+          ]
+     },{
+          "id": 112,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "# example of a ordinal encoding",
+               "from numpy import asarray",
+               "from sklearn.preprocessing import OrdinalEncoder",
+               "# define data",
+               "data = asarray([['red'], ['green'], ['blue']])",
+               "print(data)",
+               "# define ordinal ",
+               "encoder = OrdinalEncoder()",
+               "# transform data",
+               "result = encoder.fit_transform(data)",
+               "print(result)"
+          ]
+     },{
+          "id": 113,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "from sklearn.preprocessing import LabelEncoder",
+               "encoder = LabelEncoder()",
+               "# apply on df",
+               "df['status'] = encoder.fit_transform(df['status'])",
+               "# can also use the pandas.map",
+               "df['status'] = df['status'].map(lambda x: 1 if x=='Placed' else 0)",
+               "#apply on np.array",
+               "ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [1])], remainder='passthrough')",
+               "X = np.array(ct.fit_transform(X))"
+          ]
+     },{
+          "id": 114,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "df_onehot = pd.get_dummies(df, columns=['col_name'], prefix=['one_hot'])",
+
+               "# Build example dataframe:",
+               "df = pd.DataFrame(['sunny', 'rainy', 'cloudy'], columns=['weather'])",
+               "print(df)",
+               
+               "# Convert categorical weather variable to one-hot encoding:",
+               "df_onehot = pd.get_dummies(df, columns=['weather'], prefix=['one_hot'])",
+               "print(df_onehot)"
+          ]
+     },{
+          "id": 115,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "import pandas as pd",
+               "import numpy as np",
+               "# Define the headers since the data does not have any",
+               "headers = ['symboling', 'normalized_losses', 'make', 'fuel_type', 'aspiration','num_doors', 'body_style', 'drive_wheels', 'engine_location', 'wheel_base', 'length', 'width', 'height', 'curb_weight', 'engine_type', 'num_cylinders', 'engine_size', 'fuel_system', 'bore', 'stroke', 'compression_ratio', 'horsepower', 'peak_rpm', 'city_mpg', 'highway_mpg', 'price']",
+               "# Read in the CSV file and convert '?' to NaN",
+               "df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data', header=None, names=headers, na_values='?' )",
+               "df.head()"
+          ]
+     },{
+          "id": 116,
+          "intent": "put_intent",
+          "entity_name": "STATISTICS",
+          "entity_value": "as",
+          "priority": 1,
+          "code": [
+               "# importing libraries",
+               "import pandas as pd",
+               "# creating dataset",
+               "data={'SubjectName':['s1','s2','s3','s1','s4','s3','s2','s1','s2','s4','s1'],",
+                         "'Target':[1,0,1,1,1,0,0,1,1,1,0]}",
+                         "df = pd.DataFrame(data)",
+               "print(df)",
+               "Mean_encoded_subject = df.groupby(['SubjectName'])['Target'].mean().to_dict()",
+               "df['SubjectName'] =  df['SubjectName'].map(Mean_encoded_subject)",
+               "print(df)"
+          ]
      }
 ]
