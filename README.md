@@ -41,6 +41,24 @@ Custom Named Entity Recognition annotated using NER Annotated by tecoholic and S
 
 [Download](https://drive.google.com/drive/folders/1khbEs2sj4a3tKqCpH-AvN1siFkYdEhYX?usp=sharing) entity recognition model folder and place it inside "./codify/models" folder
 
+Activate your environment
+```bash
+conda activate codify_env
+```
+
+Run Python Server 
+```bash
+python server.py
+```
+
+Run React App
+```bash
+cd client/
+```
+```bash
+npm start
+```
+
 ## Credits
 
 * NER Annotator -  https://github.com/tecoholic/ner-annotator
