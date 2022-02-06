@@ -297,32 +297,52 @@
      },
      {
           "id": 14,
-          "intent": "put_intent",
-          "entity_name": "STATISTICS",
-          "entity_value": "as",
+          "intent": "encoding",
+          "entity_name": "encoding",
+          "entity_value": "one hot",
           "priority": 1,
           "code": [
-               ""
+               "df_onehot = pd.get_dummies(df, columns=['col_name'], prefix=['one_hot'])",
+               "# Build example dataframe:",
+               "df = pd.DataFrame(['sunny', 'rainy', 'cloudy'], columns=['weather'])",
+               "print(df)",
+               "# Convert categorical weather variable to one-hot encoding:",
+               "df_onehot = pd.get_dummies(df, columns=['weather'], prefix=['one_hot'])",
+               "print(df_onehot)"
           ]
      },
      {
           "id": 15,
-          "intent": "put_intent",
-          "entity_name": "STATISTICS",
-          "entity_value": "as",
+          "intent": "classification",
+          "entity_name": "classification",
+          "entity_value": "logistic",
           "priority": 1,
           "code": [
-               ""
+               "from sklearn.model_selection import train_test_split",
+               "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=5)",
+               "from sklearn.linear_model import LogisticRegression",
+               "model = LogisticRegression(max_iter = 500000)",
+               "model.fit(X_train, y_train)",
+               "y_pred = model.predict(X_test)",
+               "accuracy = model.score(X_test, y_test)",
+               "print(accuracy)"
           ]
      },
      {
           "id": 16,
-          "intent": "put_intent",
-          "entity_name": "STATISTICS",
-          "entity_value": "as",
+          "intent": "classification",
+          "entity_name": "classification",
+          "entity_value": "support vector machine",
           "priority": 1,
           "code": [
-               ""
+               "X = data_svm.iloc[:,1:13].values",
+               "y = data_svm.iloc[:, -1].values",
+               "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)",
+               "classifier = SVC(kernel = 'rbf', random_state = 0)",
+               "classifier.fit(X_train, y_train)",
+               "y_pred = classifier.predict(X_test)",
+               "accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10)",
+               "accuracies.mean()"
           ]
      },
      {
