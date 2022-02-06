@@ -130,6 +130,7 @@ class App extends Component {
     }
   }
 
+  
   addCode = (e) => {
     console.log(e.currentTarget.id);
     let filtered = "";
