@@ -166,4 +166,5 @@ div.scroll {
   height: 510px;
   overflow: auto;
   text-align:justify;
+  padding-left: 10px;
 }
