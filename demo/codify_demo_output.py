@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# load csv file
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 from sklearn.naive_bayes import GaussianNB
@@ -11,13 +10,14 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from IPython.display import display
+
+# load csv file
 import pandas as pd
 df = pd.read_csv("./iris.csv", encoding="utf-8")
 
 
 # head of dataset
 df.head()
-
 
 # display null values in percent
 

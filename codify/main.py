@@ -81,7 +81,7 @@ class Codify:
                 results.append(intent_search_result["code"].values)
 
         response = []
-        print(results)
+        # print(results)
         for result in results[0]:
             response.append(result)
         return response

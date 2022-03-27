@@ -38,6 +38,9 @@ def codify_request():
     data = request.get_json()
     text = data.get('text')
     response = codify.codify_engine(text)
+    print("\n\n")
+    print(response)
+    print("\n\n")
     return response
 
 
