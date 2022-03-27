@@ -1,5 +1,7 @@
 # Codify
 
+Codify stands for a smart intelligent system that can code like a human being for a data science application. The user just needs to type what they want in the form of a natural language query (English), and our system will automatically give out all the relevant code snippets in python for it.
+
 ## Main Document [link](https://docs.google.com/document/d/1VLGMC88vcpBDdl5eVVEh7-N4CfgnXARCGvQ-abIaaJ4/edit)
 
 ### Paper [link](https://docs.google.com/document/d/1n1v_PjUY6brparx-_DM0eJ2tJjh5IKCeCJ2VDPU24vg/edit)
