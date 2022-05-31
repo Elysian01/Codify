@@ -1,14 +1,12 @@
 # Codify
 
-Codify stands for a smart intelligent system that can code like a human being for a data science application. The user just needs to type what they want in the form of a natural language query (English), and our system will automatically give out all the relevant code snippets in python for it.
+Codify stands for a smart intelligent system that can code like a human being for a data science application. It enables data scientists to perform all the tedious and time-consuming tasks such as EDA (exploratory data analysis), data cleaning, data pre-processing, data visualization, modeling, and evaluation in the data-science life cycle, by only conveying the logic of the task in natural language (English query) and the system will automatically give out all the relevant python code snippets, or in other words the user just needs to type what they want in the form of a natural language query (English), and our system will automatically give out all the relevant code snippets in python for it.
 
-## Main Document [link](https://docs.google.com/document/d/1VLGMC88vcpBDdl5eVVEh7-N4CfgnXARCGvQ-abIaaJ4/edit)
+<br>
+<img src ="Codify-Demo-GIF.gif">
 
-### Paper [link](https://docs.google.com/document/d/1n1v_PjUY6brparx-_DM0eJ2tJjh5IKCeCJ2VDPU24vg/edit)
+### [Click here](https://dx.doi.org/10.2139/ssrn.4111759) to read our paper, published on **SSRN** 
 
-### Report [link](https://docs.google.com/document/d/1n2JKxhYut9yX5hPgLXz9JLX-GtggQN0YrQS33GcYnZo/edit#)
-
-### Poster [link](https://docs.google.com/presentation/d/1CAFAT78GKO_CL5WbrqedFGwAzPaRCShIQmsZtMrGNo0/edit?usp=sharing)
 
 ## [Dataset Stats]()
 
